@@ -1,0 +1,116 @@
+/* Nav */
+@media(min-width:768px) {
+    .navbar-fixed-top {
+        padding: 15px 0;
+        -webkit-transition: padding .3s;
+        -moz-transition: padding .3s;
+        transition: padding .3s;
+    }
+
+    .navbar-fixed-top .navbar-brand {
+        font-size: 2em;
+        -webkit-transition: all .3s;
+        -moz-transition: all .3s;
+        transition: all .3s;
+    }
+
+    .navbar-fixed-top.navbar-shrink {
+        padding: 1px 0;
+    }
+
+    .navbar-fixed-top.navbar-shrink .navbar-brand {
+        font-size: 1.5em;
+    }
+}
+
+.navbar {
+    text-transform: uppercase;
+    font-weight: 700;
+    background: rgb(33, 150, 243);
+}
+
+.navbar .navbar-brand,
+.navbar .navbar-nav li a {
+    color: rgb(255, 255, 255);
+}
+
+.navbar .navbar-toggle .icon-bar {
+    background: rgb(255, 255, 255);
+}
+
+.navbar .navbar-nav li.active a, 
+.navbar .navbar-nav > .active > a, 
+.navbar-default .navbar-nav > .active > a {
+    color: rgb(255, 255, 255) !important;
+    background: rgba(255, 255, 255, .3) !important;
+}
+
+.navbar a:focus,
+.navbar .navbar-nav li a:focus {
+    outline: 0;
+}
+
+.navbar .navbar-nav {
+    letter-spacing: 1px;
+}
+
+.navbar-default,
+.navbar-inverse {
+    border: 0;
+}
+
+/* Header */
+header {
+    text-align: center;
+    color: #fff;
+    background: #607D8B  ;
+}
+
+header .container {
+    padding-top: 100px;
+    padding-bottom: 25px;
+}
+
+header img {
+    display: block;
+    margin: 0 auto 20px;
+    border: 2px solid rgb(68, 68, 68);
+}
+
+header .intro-text .name {
+    text-transform: uppercase;
+    font-size: 2em;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+header .intro-text .skills {
+    font-size: 1.25em;
+    font-weight: 300;
+    margin-bottom: 0;
+}
+
+header .intro-text .developer {
+    font-size: 1.2em;
+    font-weight: 300;
+    margin-bottom: 0;
+}
+
+@media(min-width:768px) {
+    header .container {
+        padding-top: 150px;
+        padding-bottom: 25px;
+    }
+
+    header .intro-text .name {
+        font-size: 4.75em;
+    }
+
+    header .intro-text .skills {
+        font-size: 1.75em;
+    }
+
+    header .intro-text .developer {
+        font-size: 1.6em;
+    }
+}
