@@ -26,22 +26,22 @@
 .navbar {
     text-transform: uppercase;
     font-weight: 500;
-    background: rgb(33, 150, 243);
+    background: #2196f3;
 }
 
 .navbar .navbar-brand,
 .navbar .navbar-nav li a {
-    color: rgb(255, 255, 255);
+    color: #fff;
 }
 
 .navbar .navbar-toggle .icon-bar {
-    background: rgb(255, 255, 255);
+    background: #fff;
 }
 
 .navbar .navbar-nav li.active a, 
 .navbar .navbar-nav > .active > a, 
 .navbar-default .navbar-nav > .active > a {
-    color: rgb(255, 255, 255) !important;
+    color: #fff !important;
     background: rgba(255, 255, 255, .3) !important;
 }
 
@@ -63,7 +63,7 @@
 header {
     text-align: center;
     color: #fff;
-    background: #607D8B  ;
+    background: #607d8b;
 }
 
 header .container {
@@ -74,22 +74,22 @@ header .container {
 header .container .img-responsive {
     height: 150px;
     display: block;
-    margin: 20px auto 0;
+    margin: 0 auto 10px;
     border: 2px solid rgb(68, 68, 68);
 }
 
 header .intro-text .name {
     text-transform: uppercase;
-    font-size: 2em;
+    font-size: 2.5em;
     font-weight: 700;
     margin-bottom: 0;
 }
 
 header .intro-text hr {
-    border: 0;
-    height: 0;
-    border-top: 1px solid rgba(0, 0, 0, 0.1);
-    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    width: 275px;
+    border-top: 1px solid #f8f8f8;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+    margin: 0 auto 10px;
 }
 
 header .intro-text .skills {
@@ -104,10 +104,40 @@ header .intro-text .developer {
     margin-bottom: 0;
 }
 
+header .intro-text {
+    margin-bottom: 10px;
+}
+
+header ul.social-buttons {
+    margin-top: 5px;
+}
+
+header ul.social-buttons li a:hover,
+header ul.social-buttons li a:focus,
+header ul.social-buttons li a:active {
+    color: #607d8b;
+    background-color: #fff;
+}
+
+header .btn-outline:hover {
+    border: solid 2px #fff;
+    background: #fff;
+    color: #607d8b;
+}
+
 @media(min-width:768px) {
     header .container {
         padding-top: 125px;
         padding-bottom: 25px;
+    }
+    
+    header .container .img-responsive {
+        margin: 0 auto 20px;
+    }
+    
+    header .intro-text hr {
+        width: 450px;
+        margin: 0 auto 15px;
     }
 
     header .intro-text .name {
@@ -121,23 +151,59 @@ header .intro-text .developer {
     header .intro-text .developer {
         font-size: 1.6em;
     }
+    
+    header ul.social-buttons {
+        margin-top: 15px;
+    }
+    
+    header .intro-text {
+        margin-bottom: 20px;
+    }
+}
+
+/* Projects */
+#projects { 
+    background-image: url('../img/footprints.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 40px 0;
+}
+
+#projects .quote {
+    font-size: 1.75em;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+
+#projects .author {
+    font-size: 1.6em;
+    font-weight: 300;
+    margin-bottom: 0;
 }
 
 /* Buttons */
-.btn-outline {
-    border: solid 2px #000;
+.btn-outline,
+.btn-outline:active,
+.btn-outline.active {
+    border: solid 2px #fff;
     font-size: 20px;
     background: 0 0;
     transition: all .3s ease-in-out;
+    color: #fff;
 }
 
-.btn-outline:hover,
-.btn-outline:focus,
-.btn-outline:active,
-.btn-outline.active {
+.btn-outline:focus {
     border: solid 2px #000;
-    color: #18bc9c;
+    color: #000;
+}
+
+.btn-outline:hover {
+    border: solid 2px #fff;
     background: #fff;
+    color: #2196f3;
 }
 
 .btn-social {
@@ -155,4 +221,59 @@ header .intro-text .developer {
 .btn:active,
 .btn.active {
     outline: 0;
+}
+
+/* Social icons */
+ul.social-buttons li a {
+    display: block;
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+    font-size: 25px;
+    line-height: 40px;
+    outline: 0;
+    color: #fff;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    transition: all .3s;
+}
+
+ul.social-buttons li a:hover,
+ul.social-buttons li a:focus,
+ul.social-buttons li a:active {
+    color: #2196f3;
+    background-color: #fff;
+}
+
+
+/* Footer */
+footer {
+    padding: 25px 0;
+    text-align: center;
+}
+
+footer span.copyright {
+    line-height: 40px;
+}
+
+footer ul.quicklinks {
+    margin-bottom: 0;
+    line-height: 40px;
+}
+
+footer ul.social-buttons {
+    margin-bottom: 0;
+}
+
+footer ul.social-buttons li a {
+    border-radius: 100%;
+    color: #2196f3;
+    background-color: #fff;
+}
+
+footer ul.social-buttons li a:hover,
+footer ul.social-buttons li a:focus,
+footer ul.social-buttons li a:active {
+    color: #fff;
+    background-color: #2196f3;
 }
