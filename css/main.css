@@ -257,6 +257,7 @@ section {
     #projects .project-item {
         margin: 0 0 30px;
     }
+}
 
     
 /* Buttons */
@@ -298,8 +299,8 @@ section {
 .btn.active {
     outline: 0;
 }
+    
 /* Social icons */
-
 ul.social-buttons li a {
     display: block;
     border-radius: 100%;
@@ -320,6 +321,7 @@ ul.social-buttons li a:active {
     color: #2196f3;
     background-color: #fff;
 }
+    
 /* Footer */
 
 footer {
