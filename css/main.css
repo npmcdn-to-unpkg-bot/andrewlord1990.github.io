@@ -215,11 +215,16 @@ section {
     position: absolute;
     width: 100%;
     height: 100%;
+    top: 0;
+    bottom: 0;
     opacity: 0;
     background: rgba(33,150,243,.8);
     -webkit-transition: all ease .5s;
     -moz-transition: all ease .5s;
     transition: all ease .5s;
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    transform-style: preserve-3d;
 }
 
 #projects .project-item .project-link .caption:hover {
@@ -227,26 +232,25 @@ section {
 }
 
 #projects .project-item .project-link .caption .caption-content {
-    position: absolute;
+    position: relative;
+    top: 50%;
     width: 100%;
-    top: 0;
-    bottom: 0;
+    padding: 0 10px;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
 }
 
 #projects .project-item .project-link .caption .caption-content h3 {
-    position: absolute;
-    top: 30%;
-    width: 100%;
     text-align: center;
     color: #fff;
+    margin: 0;
 }
 
 #projects .project-item .project-link .caption .caption-content p {
-    position: absolute;
-    top: 60%;
-    width: 100%;
     text-align: center;
     color: #fff;
+    margin-top: 20px;
 }
 
 @media(min-width:767px) {
