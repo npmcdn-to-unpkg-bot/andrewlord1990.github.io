@@ -209,6 +209,7 @@ section {
 #projects .project-item .project-link {
     display: block;
     position: relative;
+    width: 100%;
 }
 
 #projects .project-item .project-link .caption {
