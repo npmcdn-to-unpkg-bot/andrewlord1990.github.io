@@ -206,6 +206,10 @@ section {
     margin: 0 0 15px;
 }
 
+#projects .project-item img {
+    border: 1px solid #ddd;
+}
+
 #projects .project-item .project-link {
     display: block;
     position: relative;
