@@ -155,36 +155,41 @@ header .btn-outline:hover {
 section {
     padding-top: 65px;
 }
-/* Footprints */
+
+section .heading {
+    margin-bottom: 10px;
+}
+
+/* Quotes */
 
 #footprints-quote {
     background-image: url('../img/footprints.jpg');
+}
+
+.quote-section {
+    text-align: center;
+    padding: 40px 0;
+    margin-bottom: 0;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
     background-size: 100% 100%;
     color: #fff;
-    text-align: center;
-    padding: 40px 0;
-    margin-bottom: 0;
 }
 
-#footprints-quote .quote {
+.quote-body {
     font-size: 1.75em;
     font-weight: 500;
     margin-bottom: 0;
 }
 
-#footprints-quote .author {
+.quote-author {
     font-size: 1.6em;
     font-weight: 300;
     margin-bottom: 0;
 }
 
 /* Projects */
-#projects .heading {
-    margin-bottom: 10px;
-}
 
 #projects nav {
     margin-bottom: 30px;
@@ -264,7 +269,46 @@ section {
     }
 }
 
-    
+/* Software quote */
+
+#software-quote {
+    background-image: url('../img/mountain-top.jpg');
+}
+
+/* Skills */
+
+#skills {
+    background: #ddd;
+    padding-bottom: 20px;
+}
+
+#skills .heading {
+    margin-bottom: 40px;
+}
+
+#skills .skill {
+    padding: 0 5px;
+}
+
+#skills .skill .header {
+    background: #fff;
+    padding: 20px 0 30px 0;
+}
+
+#skills .skill .fa {
+    font-size: 58px;
+}
+
+#skills .skill .header img {
+    height: 58px;
+}
+
+#skills .skill p {
+    background: #eee;
+    width: 100%;
+    padding: 10px;
+}
+
 /* Buttons */
 
 .btn-outline,
