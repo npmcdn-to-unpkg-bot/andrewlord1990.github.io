@@ -1,4 +1,5 @@
 /* Nav */
+
 @media(min-width:768px) {
     .navbar-fixed-top {
         padding: 15px 0;
@@ -159,7 +160,6 @@ section {
 section .heading {
     margin-bottom: 10px;
 }
-
 /* Quotes */
 
 #footprints-quote {
@@ -188,7 +188,6 @@ section .heading {
     font-weight: 300;
     margin-bottom: 0;
 }
-
 /* Projects */
 
 #projects nav {
@@ -228,7 +227,7 @@ section .heading {
     top: 0;
     bottom: 0;
     opacity: 0;
-    background: rgba(33,150,243,.8);
+    background: rgba(33, 150, 243, .8);
     -webkit-transition: all ease .5s;
     -moz-transition: all ease .5s;
     transition: all ease .5s;
@@ -268,13 +267,11 @@ section .heading {
         margin: 0 0 30px;
     }
 }
-
 /* Software quote */
 
 #software-quote {
     background-image: url('../img/mountain-top.jpg');
 }
-
 /* Skills */
 
 #skills {
@@ -315,7 +312,6 @@ section .heading {
 #thinking-quote {
     background-image: url('../img/worms-head.jpg');
 }
-
 /* Degree */
 
 #degree img {
@@ -323,9 +319,12 @@ section .heading {
 }
 
 #degree-detail {
-    margin-top: 30px;
+    margin: 20px 0 10px 0;
 }
 
+#degree .list-group-item {
+    padding: 10px 15px;
+}
 /* Buttons */
 
 .btn-outline,
@@ -365,8 +364,8 @@ section .heading {
 .btn.active {
     outline: 0;
 }
-    
 /* Social icons */
+
 ul.social-buttons li a {
     display: block;
     border-radius: 100%;
@@ -387,7 +386,6 @@ ul.social-buttons li a:active {
     color: #2196f3;
     background-color: #fff;
 }
-    
 /* Footer */
 
 footer {
