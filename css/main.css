@@ -1,5 +1,3 @@
-/* Nav */
-
 @media(min-width:768px) {
     .navbar-fixed-top {
         padding: 15px 0;
@@ -56,7 +54,6 @@
 .navbar-inverse {
     border: 0;
 }
-/* Header */
 
 header {
     text-align: center;
@@ -151,7 +148,6 @@ header .btn-outline:hover {
         margin-bottom: 20px;
     }
 }
-/* Sections */
 
 section {
     padding-top: 65px;
@@ -160,7 +156,6 @@ section {
 section .heading {
     margin-bottom: 10px;
 }
-/* Quotes */
 
 #footprints-quote {
     background-image: url('../img/footprints.jpg');
@@ -188,7 +183,6 @@ section .heading {
     font-weight: 300;
     margin-bottom: 0;
 }
-/* Projects */
 
 #projects nav {
     margin-bottom: 30px;
@@ -267,12 +261,10 @@ section .heading {
         margin: 0 0 30px;
     }
 }
-/* Software quote */
 
 #software-quote {
     background-image: url('../img/mountain-top.jpg');
 }
-/* Skills */
 
 #skills {
     background: #ddd;
@@ -307,7 +299,6 @@ section .heading {
     padding: 10px;
 }
 
-/* Thinking quote */
 
 #thinking-quote {
     background-image: url('../img/worms-head.jpg');
@@ -325,7 +316,6 @@ section .heading {
 #degree .list-group-item {
     padding: 10px 15px;
 }
-/* Buttons */
 
 .btn-outline,
 .btn-outline:active,
@@ -364,7 +354,6 @@ section .heading {
 .btn.active {
     outline: 0;
 }
-/* Social icons */
 
 ul.social-buttons li a {
     display: block;
@@ -386,7 +375,6 @@ ul.social-buttons li a:active {
     color: #2196f3;
     background-color: #fff;
 }
-/* Footer */
 
 footer {
     padding: 25px 0;
@@ -417,4 +405,10 @@ footer ul.social-buttons li a:focus,
 footer ul.social-buttons li a:active {
     color: #fff;
     background-color: #2196f3;
+}
+
+.scroll-top {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
 }
