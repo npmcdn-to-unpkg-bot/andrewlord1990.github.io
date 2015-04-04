@@ -297,6 +297,7 @@ section .heading {
 
 #skills .skill .fa {
     font-size: 58px;
+    color: #2196f3;
 }
 
 #skills .skill .header img {
@@ -307,6 +308,22 @@ section .heading {
     background: #eee;
     width: 100%;
     padding: 10px;
+}
+
+/* Thinking quote */
+
+#thinking-quote {
+    background-image: url('../img/worms-head.jpg');
+}
+
+/* Degree */
+
+#degree img {
+    max-height: 150px;
+}
+
+#degree-detail {
+    margin-top: 30px;
 }
 
 /* Buttons */
