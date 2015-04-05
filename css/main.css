@@ -266,8 +266,19 @@ section .heading {
     max-height: 300px;
 }
 
+#dinnerTimeModal .description,
 #dinnerTimeModal ul {
-    margin-top: 40px;
+    margin-top: 20px;
+}
+
+@media(min-width:767px) {
+    #dinnerTimeModal .description {
+        margin-top: 0;
+    }
+    
+    #dinnerTimeModal ul {
+        margin-top: 40px;
+    }
 }
 
 #software-quote {
@@ -457,8 +468,6 @@ section .heading {
 .timeline-badge.crosscrown {
     background-color: #ffc107 !important;
 }
-
-
 
 .timeline-badge.primary {
     background-color: #2e6da4 !important;
