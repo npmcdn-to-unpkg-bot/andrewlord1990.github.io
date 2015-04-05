@@ -262,6 +262,14 @@ section .heading {
     }
 }
 
+#dinnerTimeModal img {
+    max-height: 300px;
+}
+
+#dinnerTimeModal ul {
+    margin-top: 40px;
+}
+
 #software-quote {
     background-image: url('../img/mountain-top.jpg');
 }
