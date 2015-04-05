@@ -266,19 +266,25 @@ section .heading {
     max-height: 300px;
 }
 
-#dinnerTimeModal .description,
-#dinnerTimeModal ul {
+.description,
+#dinnerTimeModal ul,
+#wackyBatModal .screenshot {
     margin-top: 20px;
 }
 
 @media(min-width:767px) {
-    #dinnerTimeModal .description {
+    #dinnerTimeModal .description,
+    #wackyBatModal .screenshot {
         margin-top: 0;
     }
     
     #dinnerTimeModal ul {
         margin-top: 40px;
     }
+}
+
+#wackyBatModal .google-play-badge img {
+    height: 80px;
 }
 
 #software-quote {
