@@ -317,6 +317,21 @@ section .heading {
     padding: 10px 15px;
 }
 
+#degree .btn-outline,
+#degree .btn-outline:active,
+#degree .btn-outline.active {
+    border: solid 2px #666;
+    color: #666;
+}
+
+#degree .btn-outline:hover {
+    border: solid 2px #666;
+    background: #666;
+    color: #fff;
+}
+
+
+
 .btn-outline,
 .btn-outline:active,
 .btn-outline.active {
