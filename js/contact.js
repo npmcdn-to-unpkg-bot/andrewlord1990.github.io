@@ -2,14 +2,6 @@ $(function () {
 
     $("input,textarea").jqBootstrapValidation({
         submitError: function ($form, event, errors) {
-            $(".form-group:has(input#name)").removeClass('has-warning');
-            $(".form-group:has(input#email)").removeClass('has-warning');
-            $(".form-group:has(input#phone)").removeClass('has-warning');
-            $(".form-group:has(textarea#message)").removeClass('has-warning');
-
-            $('.error').each(obj, function (key, value) {
-                obj.addClass('has-warning');
-            });
         },
         submitSuccess: function ($form, event) {
             event.preventDefault(); // prevent default submit behaviour
@@ -24,7 +16,7 @@ $(function () {
                 firstName = name.split(' ').slice(0, -1).join(' ');
             }
             $.ajax({
-                url: "././mail/contact_me.php",
+                url: "php/contact.php",
                 type: "POST",
                 data: {
                     name: name,
@@ -63,7 +55,8 @@ $(function () {
 });
 
 
-/*When clicking on Full hide fail/success boxes */
-$('#name').focus(function () {
-    $('#success').html('');
+$('.form-control').each(function (index) {
+    $(this).focus(function () {
+        $('#success').html('');
+    });
 });

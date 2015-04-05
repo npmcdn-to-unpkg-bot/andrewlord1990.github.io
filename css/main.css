@@ -526,6 +526,12 @@ section .heading {
     resize: vertical;
 }
 
+#contact .help-block ul {
+    list-style-type: none;
+    padding: 0;
+    color: #ff9800;
+}
+
 .btn-outline,
 .btn-outline:active,
 .btn-outline.active {
