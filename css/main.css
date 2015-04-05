@@ -522,6 +522,10 @@ section .heading {
     background-image: url('../img/clouds.jpg');
 }
 
+#contact textarea {
+    resize: vertical;
+}
+
 .btn-outline,
 .btn-outline:active,
 .btn-outline.active {
