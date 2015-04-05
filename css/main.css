@@ -583,7 +583,8 @@ section .heading {
 
 .btn:focus,
 .btn:active,
-.btn.active {
+.btn.active,
+a:focus {
     outline: 0;
 }
 
