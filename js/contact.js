@@ -1,11 +1,17 @@
-$(function() {
+$(function () {
 
     $("input,textarea").jqBootstrapValidation({
-        preventSubmit: true,
-        submitError: function($form, event, errors) {
-            // additional error messages or events
+        submitError: function ($form, event, errors) {
+            $(".form-group:has(input#name)").removeClass('has-warning');
+            $(".form-group:has(input#email)").removeClass('has-warning');
+            $(".form-group:has(input#phone)").removeClass('has-warning');
+            $(".form-group:has(textarea#message)").removeClass('has-warning');
+
+            $('.error').each(obj, function (key, value) {
+                obj.addClass('has-warning');
+            });
         },
-        submitSuccess: function($form, event) {
+        submitSuccess: function ($form, event) {
             event.preventDefault(); // prevent default submit behaviour
             // get values from FORM
             var name = $("input#name").val();
@@ -27,7 +33,7 @@ $(function() {
                     message: message
                 },
                 cache: false,
-                success: function() {
+                success: function () {
                     // Success message
                     $('#success').html("<div class='alert alert-success'>");
                     $('#success > .alert-success').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
@@ -40,7 +46,7 @@ $(function() {
                     //clear all fields
                     $('#contactForm').trigger("reset");
                 },
-                error: function() {
+                error: function () {
                     // Fail message
                     $('#success').html("<div class='alert alert-warning'>");
                     $('#success > .alert-warning').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
@@ -50,7 +56,7 @@ $(function() {
                 },
             })
         },
-        filter: function() {
+        filter: function () {
             return $(this).is(":visible");
         },
     });
@@ -58,6 +64,6 @@ $(function() {
 
 
 /*When clicking on Full hide fail/success boxes */
-$('#name').focus(function() {
+$('#name').focus(function () {
     $('#success').html('');
 });
