@@ -221,6 +221,17 @@ section .heading {
     width: 100%;
 }
 
+#projects .project-item .project-link .zoom-indicator {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    color: rgba(102, 102, 102, 0.6);
+}
+
+#projects .project-item .project-link .caption:hover + .zoom-indicator {
+    color: #fff;
+}
+
 #projects .project-item .project-link .caption {
     position: absolute;
     width: 100%;
@@ -255,12 +266,6 @@ section .heading {
     text-align: center;
     color: #fff;
     margin: 0;
-}
-
-#projects .project-item .project-link .caption .caption-content p {
-    text-align: center;
-    color: #fff;
-    margin-top: 20px;
 }
 
 @media(min-width:767px) {
