@@ -269,23 +269,27 @@ section .heading {
     }
 }
 
-#dinnerTimeModal img {
+#dinnerTimeModal img,
+#rdaModal img {
     max-height: 300px;
 }
 
 .description,
 #dinnerTimeModal ul,
+#rdaModal ul,
 .screenshot {
     margin-top: 20px;
 }
 
 @media(min-width:767px) {
     #dinnerTimeModal .description,
+    #rdaModal .description,
     .screenshot {
         margin-top: 0;
     }
     
-    #dinnerTimeModal ul {
+    #dinnerTimeModal ul,
+    #rdaModal ul {
         margin-top: 40px;
     }
 }
