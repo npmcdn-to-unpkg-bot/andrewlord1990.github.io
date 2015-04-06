@@ -114,6 +114,13 @@ header ul.social-buttons li a:active {
     background-color: #fff;
 }
 
+header .btn-outline,
+header .btn-outline:active,
+header .btn-outline.active {
+    border: solid 2px #fff;
+    color: #fff;
+}
+
 header .btn-outline:hover {
     border: solid 2px #fff;
     background: #fff;
@@ -268,13 +275,13 @@ section .heading {
 
 .description,
 #dinnerTimeModal ul,
-#wackyBatModal .screenshot {
+.screenshot {
     margin-top: 20px;
 }
 
 @media(min-width:767px) {
     #dinnerTimeModal .description,
-    #wackyBatModal .screenshot {
+    .screenshot {
         margin-top: 0;
     }
     
@@ -294,6 +301,10 @@ section .heading {
 
 #wackyBatModal .google-play-badge img {
     height: 80px;
+}
+
+.modal .list-group {
+    margin-bottom: 0;
 }
 
 #software-quote {
@@ -567,11 +578,11 @@ section .heading {
 .btn-outline,
 .btn-outline:active,
 .btn-outline.active {
-    border: solid 2px #fff;
+    border: solid 2px #666;
+    color: #666;
     font-size: 20px;
     background: 0 0;
     transition: all .3s ease-in-out;
-    color: #fff;
 }
 
 .btn-outline:focus {
@@ -580,9 +591,9 @@ section .heading {
 }
 
 .btn-outline:hover {
-    border: solid 2px #fff;
-    background: #fff;
-    color: #2196f3;
+    border: solid 2px #666;
+    background: #666;
+    color: #fff;
 }
 
 .btn-social {
