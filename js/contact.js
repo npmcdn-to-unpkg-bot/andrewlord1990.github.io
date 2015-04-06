@@ -1,8 +1,7 @@
 $(function () {
 
     $("input,textarea").jqBootstrapValidation({
-        submitError: function ($form, event, errors) {
-        },
+        submitError: function ($form, event, errors) {},
         submitSuccess: function ($form, event) {
             event.preventDefault(); // prevent default submit behaviour
             // get values from FORM
@@ -37,6 +36,9 @@ $(function () {
 
                     //clear all fields
                     $('#contactForm').trigger("reset");
+                    $('.form-control').each(function (index) {
+                        $(this).trigger("change");
+                    });
                 },
                 error: function () {
                     // Fail message
