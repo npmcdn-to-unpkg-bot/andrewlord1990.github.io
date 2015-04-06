@@ -290,7 +290,8 @@ section .heading {
     }
 }
 
-#personalWebModal img {
+#personalWebModal img,
+#fypModal img {
     border: 1px solid #ddd;
     margin-bottom: 20px;
 }
