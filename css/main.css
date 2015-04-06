@@ -283,6 +283,11 @@ section .heading {
     }
 }
 
+#personalWebModal img {
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+}
+
 #wackyBatModal .google-play-badge img {
     height: 80px;
 }
