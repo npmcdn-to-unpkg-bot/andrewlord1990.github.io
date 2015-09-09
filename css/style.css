@@ -1,0 +1,21 @@
+@charset "utf-8";
+
+html {
+    background: url('../images/bg.png') repeat;
+    min-height: 100%;
+}
+
+body {
+    font-size: 16px;
+    background-color: transparent;
+}
+
+a,
+a:focus,
+a:active {
+    outline: 0;
+}
+
+.waves-effect.waves-yellow-accent .waves-ripple {
+    background-color: rgba(255, 215, 64, 0.65);
+}
