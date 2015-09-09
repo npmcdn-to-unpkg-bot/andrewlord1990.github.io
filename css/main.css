@@ -287,12 +287,9 @@ section .heading {
 }
 
 @media(min-width:767px) {
-    #dinnerTimeModal .description,
-    #rdaModal .description,
-    .screenshot {
+    #dinnerTimeModal .description, #rdaModal .description, .screenshot {
         margin-top: 0;
     }
-    
     #dinnerTimeModal ul,
     #rdaModal ul {
         margin-top: 40px;
@@ -307,6 +304,10 @@ section .heading {
 
 #crosscrownModal img {
     margin-bottom: 20px;
+}
+
+#wackyBatModal .google-play-badge {
+    margin-top: 20px;
 }
 
 #wackyBatModal .google-play-badge img {
