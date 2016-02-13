@@ -61,6 +61,10 @@ header {
     background: #607d8b;
 }
 
+header h2 {
+    color: #fff;
+}
+
 header .container {
     padding-top: 75px;
     padding-bottom: 25px;

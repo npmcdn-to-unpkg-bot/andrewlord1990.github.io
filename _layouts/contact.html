@@ -1,0 +1,43 @@
+{% include header.html %}
+
+{% include page-title-heading.html %}
+
+<section id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+                <form name="contactForm" id="contactForm" role="form" novalidate>
+                    <div class="form-group float-label-control control-group has-feedback">
+                        <input type="text" class="form-control" id="name" required data-validation-required-message="Please enter your name" />
+                        <label class="control-label" for="name">Name</label>
+                        <p class="help-block"></p>
+                    </div>
+                    <div class="form-group float-label-control control-group has-feedback">
+                        <input type="email" class="form-control" id="email" required data-validation-required-message="Please enter an email address" data-validation-email-message="Please enter a valid email address">
+                        <label class="control-label" for="email">Email Address</label>
+                        <p class="help-block"></p>
+                    </div>
+                    <div class="form-group float-label-control control-group">
+                        <input type="tel" class="form-control" id="phone">
+                        <label class="control-label" for="phone">Phone Number</label>
+                        <p class="help-block"></p>
+                    </div>
+                    <div class="form-group float-label-control control-group has-feedback">
+                        <textarea rows="5" class="form-control" id="message" required data-validation-required-message="Please enter a message"></textarea>
+                        <label class="control-label" for="message">Message</label>
+                        <p class="help-block"></p>
+                    </div>
+                    <br />
+                    <div id="success"></div>
+                    <div class="row">
+                        <div class="form-group col-md-12">
+                            <button type="submit" class="btn btn-success btn-lg">Send</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+{% include footer.html %}

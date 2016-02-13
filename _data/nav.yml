@@ -1,0 +1,7 @@
+main:
+    - { url: '/', text: 'Blog' }
+    - { url: '/projects.html', text: 'Projects' }
+    - { url: '/skills.html', text: 'Skills' }
+    - { url: '/degree.html', text: 'Degree' }
+    - { url: '/work.html', text: 'Work' }
+    - { url: '/contact.html', text: 'Contact' }
