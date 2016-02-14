@@ -58,7 +58,7 @@
 header {
     text-align: center;
     color: #fff;
-    background: #607d8b;
+    background: #009688;
 }
 
 header h2 {
@@ -68,13 +68,6 @@ header h2 {
 header .container {
     padding-top: 75px;
     padding-bottom: 25px;
-}
-
-header .container .img-responsive {
-    height: 150px;
-    display: block;
-    margin: 0 auto 10px;
-    border: 2px solid rgb(68, 68, 68);
 }
 
 header .intro-text .name {
@@ -111,33 +104,14 @@ header ul.social-buttons {
     margin-top: 5px;
 }
 
-header ul.social-buttons li a:hover,
-header ul.social-buttons li a:focus,
-header ul.social-buttons li a:active {
-    color: #607d8b;
-    background-color: #fff;
-}
-
-header .btn-outline,
-header .btn-outline:active,
-header .btn-outline.active {
-    border: solid 2px #fff;
+header ul.social-buttons li a {
     color: #fff;
-}
-
-header .btn-outline:hover {
-    border: solid 2px #fff;
-    background: #fff;
-    color: #607d8b;
 }
 
 @media(min-width:768px) {
     header .container {
         padding-top: 125px;
         padding-bottom: 25px;
-    }
-    header .container .img-responsive {
-        margin: 0 auto 20px;
     }
     header .intro-text hr {
         width: 450px;
@@ -160,6 +134,10 @@ header .btn-outline:hover {
     }
 }
 
+main {
+    margin-top: 20px;
+}
+
 section {
     padding-top: 65px;
 }
@@ -175,7 +153,7 @@ section .heading {
 .quote-section {
     text-align: center;
     padding: 40px 0;
-    margin-bottom: 20px;
+    margin-bottom: 0;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
@@ -637,7 +615,7 @@ ul.social-buttons li a {
     font-size: 25px;
     line-height: 40px;
     outline: 0;
-    color: #fff;
+    color: #2196f3;
     -webkit-transition: all .3s;
     -moz-transition: all .3s;
     transition: all .3s;
@@ -646,8 +624,7 @@ ul.social-buttons li a {
 ul.social-buttons li a:hover,
 ul.social-buttons li a:focus,
 ul.social-buttons li a:active {
-    color: #2196f3;
-    background-color: #fff;
+    color: #000;
 }
 
 footer {
@@ -666,19 +643,6 @@ footer ul.quicklinks {
 
 footer ul.social-buttons {
     margin-bottom: 0;
-}
-
-footer ul.social-buttons li a {
-    border-radius: 100%;
-    color: #2196f3;
-    background-color: #fff;
-}
-
-footer ul.social-buttons li a:hover,
-footer ul.social-buttons li a:focus,
-footer ul.social-buttons li a:active {
-    color: #fff;
-    background-color: #2196f3;
 }
 
 .scroll-top {
