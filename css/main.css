@@ -175,7 +175,7 @@ section .heading {
 .quote-section {
     text-align: center;
     padding: 40px 0;
-    margin-bottom: 0;
+    margin-bottom: 20px;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
