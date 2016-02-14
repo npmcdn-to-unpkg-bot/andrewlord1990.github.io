@@ -13,7 +13,7 @@
     <div class="inner-guts">
         <h2><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
         <aside>
-            {{ post.date | date: "%m.%d.%y" }}
+            {{ post.date | date_to_string }}
             {% if post.categories != empty %}
                 &middot;
                 {% for category in post.categories %}
