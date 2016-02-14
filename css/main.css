@@ -1,3 +1,7 @@
+a {
+    color: #009688;
+}
+
 @media(min-width:768px) {
     .navbar-fixed-top {
         padding: 15px 0;
