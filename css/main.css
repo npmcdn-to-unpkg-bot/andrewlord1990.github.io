@@ -1,5 +1,5 @@
 a {
-    color: #009688;
+    color: #2196f3;
     outline: none !important;
     text-decoration: none !important;
     transition: all 225ms ease;
@@ -633,7 +633,7 @@ ul.social-buttons li a {
     font-size: 25px;
     line-height: 40px;
     outline: 0;
-    color: #009688;
+    color: #2196f3;
     -webkit-transition: all .3s;
     -moz-transition: all .3s;
     transition: all .3s;
