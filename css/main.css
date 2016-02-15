@@ -1,5 +1,19 @@
 a {
     color: #009688;
+    outline: none !important;
+    text-decoration: none !important;
+    transition: all 225ms ease;
+}
+
+a:hover,
+a:focus,
+a:active {
+    color: #000;
+}
+
+::selection {
+    background: #086AFF;
+    color: #fff;
 }
 
 @media(min-width:768px) {
