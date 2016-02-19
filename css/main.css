@@ -899,3 +899,8 @@ aside span {
         margin: 75px -100px;
     }
 }
+
+p.author {
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
