@@ -13,7 +13,7 @@ Robolectric provides the `RobolectricGradleTestRunner` to run your tests out-of-
 
 The way you will want to provide this configuration is by overriding the method `Config getConfig(Method method)`. This will allow you to receive any configuration from the `@Config` annotation and from the Robolectric properties file and then programmatically alter it before it is used by Robolectric.
 
-{% highlight java %}
+```java
 @Override
 public Config getConfig(Method method) {
     Config config = super.getConfig(method);
@@ -30,22 +30,22 @@ public Config getConfig(Method method) {
             config.libraries(),
             ensureBuildConfig(config.constants()));
 }
-{% endhighlight %}
+```
 
 By calling `super.getConfig(method)`, anything provided in the `@Config` annotation or by the Robolectric properties file will be used as the basis for the configuration. Then, I am altering two of the properties: the SDK level and the build config. The first is being done due to Robolectric not immediately supporting all versions of the Android SDK. By limiting the SDK levels in the configuration, you can specify a maximum SDK level for the test environment and then increate it whenever Robolectric is updated. The second change provides Robolectric with your `BuildConfig` class, which it uses to access the final merged resources, assets and AndroidManifest.
 
-{% highlight java %}
+```java
 private Class<?> ensureBuildConfig(Class<?> constants) {
     if (constants == Void.class) {
         return BuildConfig.class;
     }
     return constants;
 }
-{% endhighlight %}
+```
 
 The `ensureBuildConfig` method will configure the test runner to use your `BuildConfig` class, unless one has already been provided. By using this method, you won't need to specify your `BuildConfig` class in every test anymore.
 
-{% highlight java %}
+```java
 private static final int MAX_SDK_LEVEL = 21;
 
 private int[] ensureSdkLevels(int[] sdkLevels) {
@@ -61,7 +61,7 @@ private int[] ensureSdkLevels(int[] sdkLevels) {
     }
     return sdks;
 }
-{% endhighlight %}
+```
 
 The `ensureSdkLevels` method will make sure that no unsupported SDK levels are used. The full source of `CustomRobolectricTestRunner` is available as [a Gist](https://gist.github.com/andrewlord1990/fd5bfd5460e57747fd87).
 
