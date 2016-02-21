@@ -65,4 +65,13 @@ private int[] ensureSdkLevels(int[] sdkLevels) {
 
 The `ensureSdkLevels` method will make sure that no unsupported SDK levels are used. The full source of `CustomRobolectricTestRunner` is available as [a Gist](https://gist.github.com/andrewlord1990/fd5bfd5460e57747fd87).
 
-This completes the `CustomRobolectricTestRunner`, there are many other customisations you could make and now that you have your own test runner you can easily make these without having to alter all of your test classes. If you have any suggestions, corrections or any other interesting customisations to the test runner then please let me know. In the meantime, good luck with your Android unit testing!
+This completes the `CustomRobolectricTestRunner`, there are many other customisations you could make and now that you have your own test runner you can easily make these without having to alter all of your test classes. If you have any suggestions, corrections or any other interesting customisations to the test runner then please let me know.
+
+You can also achieve the above through a properties file, which didn't used to be very easy due to the Android Gradle plugin not detecting the properties file in the test build variant. I'm not sure exactly which version of the plugin fixed this, but it definitely works at the time of writing in version `1.5.0`. To specify the `BuildConfig` and max SDK level through a properties file, create a file called `robolectric.properties` at `$MODULE_DIR$/src/test/resources`. Enter the following into the file:
+
+```
+constants=path.to.your.BuildConfig
+sdk=21
+```
+
+In the meantime, good luck with your Android unit testing!

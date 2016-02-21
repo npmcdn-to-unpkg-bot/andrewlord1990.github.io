@@ -888,15 +888,15 @@ aside span {
 }
 
 @media(min-width:480px) {
-    pre {
-        margin-left: 0;
-        margin-right: 0;
+    pre.highlight {
+        margin: 20px 0;
     }
 }
 
 @media(min-width:992px) {
-    pre {
-        margin: 75px -100px;
+    pre.highlight {
+        max-width: 600px;
+        margin: 75px auto;
     }
 }
 
