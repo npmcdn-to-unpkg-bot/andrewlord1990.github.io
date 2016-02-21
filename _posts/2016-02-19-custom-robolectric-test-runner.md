@@ -9,6 +9,8 @@ lead_text: 'Many Android developers rely on Robolectric to unit test their Andro
 
 I put forward my `CustomRobolectricTestRunner`, which allows you to configure your Robolectric test environment once and share it across all of your Android unit tests.
 
+### Custom Test Runner
+
 Robolectric provides the `RobolectricGradleTestRunner` to run your tests out-of-the-box, which requires you to specify your `BuildConfig` class on each test in order to properly setup the test environment. This requirement didn't sit well with me, firstly you have to remember to add this annotation to each test and secondly if this ever changes you will need to update every test. One simple alternative would be to add it to a file template within Android Studio and then your generated test classes would have this inserted automatically. However, doing it this way would require each developer who works on a project to add this to the template. It would also mean you need a different template for each Android project you work on, due to the package name for the `BuildConfig` class changing. Therefore, I think a better way of doing this is through a custom test runner that extends `RobolectricGradleTestRunner` and includes the configuration here once, to be shared by every test.
 
 The way you will want to provide this configuration is by overriding the method `Config getConfig(Method method)`. This will allow you to receive any configuration from the `@Config` annotation and from the Robolectric properties file and then programmatically alter it before it is used by Robolectric.
@@ -66,6 +68,8 @@ private int[] ensureSdkLevels(int[] sdkLevels) {
 The `ensureSdkLevels` method will make sure that no unsupported SDK levels are used. The full source of `CustomRobolectricTestRunner` is available as [a Gist](https://gist.github.com/andrewlord1990/fd5bfd5460e57747fd87).
 
 This completes the `CustomRobolectricTestRunner`, there are many other customisations you could make and now that you have your own test runner you can easily make these without having to alter all of your test classes. If you have any suggestions, corrections or any other interesting customisations to the test runner then please let me know.
+
+### Properties File
 
 You can also achieve the above through a properties file, which didn't used to be very easy due to the Android Gradle plugin not detecting the properties file in the test build variant. I'm not sure exactly which version of the plugin fixed this, but it definitely works at the time of writing in version `1.5.0`. To specify the `BuildConfig` and max SDK level through a properties file, create a file called `robolectric.properties` at `$MODULE_DIR$/src/test/resources`. Enter the following into the file:
 
