@@ -4,12 +4,14 @@ title: 'Current Git Commit'
 date: 2016-02-22
 categories: blog development gradle android
 tags: dev code gradle android
-lead_text: ''
+lead_text: 'Get access to the current Git commit and branch in your Gradle projects, for example displaying it in an Android app.'
 ---
 
-When builds of your Android app are shared with many different developers, or you have lots of different app testers, it can be useful to know exactly which build the developer has on their device.
+When builds of your Android app are shared with many different developers, or you have multiple app testers, it can be useful to know exactly which build the developer has on their device.
 
 You could achieve this by passing a build number from your CI tool, such as Jenkins or Travis, to display in your app or include as part of the version name. However, I also like to include the current Git branch and Git commit in the app, displaying it within a developer options page that is included in debug builds of the app.
+
+This can be achieved through the use of two Gradle functions.
 
 ```groovy
 def getCurrentGitBranch() {
