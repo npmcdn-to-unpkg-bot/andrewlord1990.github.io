@@ -62,4 +62,4 @@ defaultConfig {
 }
 ```
 
-I will leave it to you how you use and display this information in your Android app. Happy coding!
+There are many different ways to use and display this information in your Android apps. Currently, I generally just display it in an options page, behind an `if (BuildConfig.DEBUG)` check, to that the information can be accessed in all debug builds. I will leave it to you how you wish to use the information. Happy coding!
