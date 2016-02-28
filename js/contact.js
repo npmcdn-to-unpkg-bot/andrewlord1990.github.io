@@ -27,6 +27,7 @@ $(function () {
                     _subject: subject,
                     _gotcha: gotcha
                 },
+                dataType: "json",
                 cache: false,
                 success: function () {
                     // Success message
