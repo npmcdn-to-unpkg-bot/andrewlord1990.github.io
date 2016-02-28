@@ -9,19 +9,24 @@ $(function () {
             var email = $("input#email").val();
             var phone = $("input#phone").val();
             var message = $("textarea#message").val();
+            var subject = $("input#subject").val();
+            var gotcha = $("input#gotcha").val();
             var firstName = name; // For Success/Failure Message
             // Check for white space in name for Success/Fail message
             if (firstName.indexOf(' ') >= 0) {
                 firstName = name.split(' ').slice(0, -1).join(' ');
             }
             $.ajax({
-                url: "php/contact.php",
-                type: "POST",
+                url: "http://formspree.io/andrew@andrew-lord.co.uk",
+                method: "POST",
                 data: {
                     name: name,
-                    phone: phone,
+                    response: response,
                     email: email,
-                    message: message
+                    dietary: dietary,
+                    message: message,
+                    _subject: subject,
+                    _gotcha: gotcha
                 },
                 cache: false,
                 success: function () {
