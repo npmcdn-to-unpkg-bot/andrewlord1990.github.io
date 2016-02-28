@@ -21,9 +21,8 @@ $(function () {
                 method: "POST",
                 data: {
                     name: name,
-                    response: response,
                     email: email,
-                    dietary: dietary,
+                    phone: phone,
                     message: message,
                     _subject: subject,
                     _gotcha: gotcha
