@@ -1,5 +1,9 @@
 # My personal website
 
+[![Build Status](https://travis-ci.org/andrewlord1990/andrewlord1990.github.io.svg?branch=master)](https://travis-ci.org/andrewlord1990/andrewlord1990.github.io)
+[![License](https://img.shields.io/badge/license-Apache%202.0-green.svg) ](https://github.com/andrewlord1990/andrewlord1990.github.io
+/blob/master/LICENSE)
+
 My personal portfolio website, which is accessible at www.andrew-lord.co.uk.
 
 ## Technologies
