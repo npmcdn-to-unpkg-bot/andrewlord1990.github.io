@@ -13,12 +13,20 @@ Google IO 2016, the annual Google developer conference, has taken place at the S
 The keynote speech began at 10a.m. PT (UTC-8), for which I was lucky enough to get a seat right at the front, in one of the first few rows. The venue itself is outside, with an awning covering the front seating areas. Behind and to the sides of the stage were 3 huge high-definition screens. Whilst the audience was waiting for the keynote to begin, various videos and games requiring audience participation were presented across them.
 
 {% include post-row-images.html
+            id0="keynotePlanesGameModal"
             img0="posts/google-io-2016/keynote-planes-game.jpg"
             title0="Interactive planes game"
             caption0="Audience members can fly paper planes into the scene"
+            id1="keynotePaintGameModal"
             img1="posts/google-io-2016/keynote-paint-game.jpg"
             title1="Interactive paint game"
             caption1="A 3D IO logo can be painted by audience members flicking their phones" %}
+{% include modals/view-image.html
+            id="keynotePlanesGameModal"
+            img="posts/google-io-2016/keynote-planes-game.jpg" %}
+{% include modals/view-image.html
+            id="keynotePaintGameModal"
+            img="posts/google-io-2016/keynote-paint-game.jpg" %}
 
 ### Introduction
 
@@ -31,9 +39,13 @@ The keynote kicked off which a segment discussing how our usage of technology an
 Google's focus is on improving how they can improve users' lives, make everyday tasks easier and provide relevant content and suggestions. Rather than just showing links, Google search now shows content directly in the search results. They now have an understanding of over 1 billion entities - people, places and things. Google is starting to understand context, to provide accurate and useful information to users. Sundar showed an example of the Photos app showing all the pictures of hugs on the user's device. He then went on to show real time translation from English to Chinese directly in the camera feed, by aiming the camera at a sign written in English.
 
 {% include post-image.html
+            id="keynoteStageStartModal"
             img="posts/google-io-2016/keynote-stage-start.jpg"
             title="Start of keynote speech"
             caption="Start of the keynote speech" %}
+{% include modals/view-image.html
+            id="keynoteStageStartModal"
+            img="posts/google-io-2016/keynote-stage-start.jpg" %}
 
 ### Google Assistant
 
@@ -51,9 +63,13 @@ Now, they have announced the Google Assistant, which will group all of these ide
 Alongside the assistant, [Google Home](https://home.google.com/) was announced. This is Google's equivalent of [Amazon Echo and Alexa](https://www.amazon.com/echo‎). It is a sleek device for your home, which will give you the power of the Google assistant in your home, through two-way dialog.
 
 {% include post-image.html
+            id="keynoteHomeModal"
             img="posts/google-io-2016/keynote-home.jpg"
             title="Google Home"
             caption="OK Google for your home" %}
+{% include modals/view-image.html
+            id="keynoteHomeModal"
+            img="posts/google-io-2016/keynote-home.jpg" %}
 
 - Play music on the built-in speaker, sourced from [Google Music](https://play.google.com/Music‎) and 3rd party services such as [Spotify](https://www.spotify.com/).
 - Cast [audio](https://www.google.com/chromecast/speakers/) or [video](https://www.google.com/chromecast) to connected devices.
@@ -69,9 +85,13 @@ Google Home will launch later in the year, but Google plan to work with develope
 The first surprising announcement was a new smart messaging app, called [Allo](https://play.google.com/store/apps/details?id=com.google.android.apps.fireball). Bringing the power of Google to your chat conversations, including the assistant, encryption and many ways to express yourself.
 
 {% include post-image.html
+            id="keynoteAllo"
             img="posts/google-io-2016/keynote-allo.jpg"
             title="Allo chat messaging app"
             caption="Allo - chat augmented by the power of Google" %}
+{% include modals/view-image.html
+            id="keynoteAllo"
+            img="posts/google-io-2016/keynote-allo.jpg" %}
 
 Features mentioned:
 
@@ -96,18 +116,26 @@ Following Allo, there was a second surprising app announcement in [Duo](https://
 Duo will be available this summer on both Android and iOS.
 
 {% include post-image.html
+            id="keynoteDuo"
             img="posts/google-io-2016/keynote-allo-duo.jpg"
             title="Allo and Duo"
             caption="Allo and Duo - the new communication apps" %}
+{% include modals/view-image.html
+            id="keynoteDuo"
+            img="posts/google-io-2016/keynote-allo-duo.jpg" %}
 
 ### Android
 
 There weren't many surprises for Android N due to the fact the [developer preview](https://developer.android.com/preview/index.html) is already available. Google said they released it early to get help finding bugs, get early feedback and hopefully get it onto devices sooner. You can now submit your ideas for what Android N should be called at [android.com/N](https://www.android.com/versions/name-n/). However, Google do still reserve the right to select the name.
 
 {% include post-image.html
+            id="keynoteAndroid"
             img="posts/google-io-2016/keynote-android.jpg"
             title="Android N features"
             caption="Android N - lots of new features coming" %}
+{% include modals/view-image.html
+            id="keynoteAndroid"
+            img="posts/google-io-2016/keynote-android.jpg" %}
 
 Many Android N features were mentioned:
 
@@ -125,9 +153,13 @@ The aim is to release Android N later this summer and a beta release will be com
 Virtual Reality is coming to Android N in the form of the Daydream platform. Firstly, devices must meet a specification to be considered "Daydream-ready", which tells users that a device is capable of high-quality VR. Secondly, there is a specification for what a VR headset should be capable of to be used with Daydream. A controller was also announced, containing sensors and movement tracking.
 
 {% include post-image.html
+            id="keynoteDaydream"
             img="posts/google-io-2016/keynote-daydream.jpg"
             title="Daydream controller"
             caption="The Daydream VR controller" %}
+{% include modals/view-image.html
+            id="keynoteDaydream"
+            img="posts/google-io-2016/keynote-daydream.jpg" %}
 
 The home of Daydream will be Google Play, users will be able to view, install and run apps all within VR. Many Google apps will support it, you will be able to watch videos in a virtual movie theatre, view StreetView in VR and watch YouTube in VR. YouTube has been redesigned to include voice search, spatial audio, VR-designed videos and a way of viewing all standard videos.
 
@@ -158,9 +190,13 @@ Some new analysis tools will also be available: an APK analyser to find out why 
 A major update has been made to the Firebase platform, with many existing Google features, such as Google Cloud Messaging and App Indexing becoming part of Firebase. The new version of Firebase works with Android and iOS clients and contains cloud messaging, notifications, crash reporting, remote configuration of clients (for A/B testing) and is fully integrated into the Google Cloud Platform. Better still, it is [available now](https://firebase.google.com/).
 
 {% include post-image.html
+            id="keynoteFirebase"
             img="posts/google-io-2016/keynote-firebase.jpg"
             title="Firebase features"
             caption="Firebase - new features" %}
+{% include modals/view-image.html
+            id="keynoteFirebase"
+            img="posts/google-io-2016/keynote-firebase.jpg" %}
 
 ### Android Instant Apps
 
