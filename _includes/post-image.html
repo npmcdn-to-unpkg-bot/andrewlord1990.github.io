@@ -1,0 +1,18 @@
+<div class="row">
+  <div class="col-xs-10 col-sm-8 col-md-6 col-xs-offset-1 col-sm-offset-2 col-md-offset-3">
+    <div class="post-image thumbnail">
+      {% if include.url %}
+      <a href="{{ include.url }}" title="{{ include.title }}" target="_blank">
+      {% endif %}
+        <img src="{{ site.url }}/img/{{ include.img }}" alt="{{ include.title }}" class="img-responsive"/>
+      {% if include.url %}
+      </a>
+      {% endif %}
+      {% if include.caption %}
+      <div class="caption text-center">
+        <p>{{ include.caption }}</p>
+      </div>
+      {% endif %}
+    </div>
+  </div>
+</div>

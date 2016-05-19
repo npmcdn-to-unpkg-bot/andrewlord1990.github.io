@@ -2,8 +2,8 @@
 layout: inner
 title: 'Robolectric Bulk Test Configuration'
 date: 2016-02-19
-categories: blog development android
-tags: dev code android testing robolectric config
+categories: dev android
+tags: blog dev code android java testing robolectric
 lead_text: 'Many Android developers rely on Robolectric to unit test their Android apps and libraries. By running JUnit tests on your local machine''s JVM, it allows you to test-drive your Android development. Unfortunately you currently must provide a configuration annotation on each test class.'
 ---
 

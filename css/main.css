@@ -904,3 +904,15 @@ p.author {
     margin-top: 30px;
     margin-bottom: 50px;
 }
+
+.post-image-container {
+  padding-top: 10px;
+}
+
+.post-image.thumbnail {
+  padding-bottom: 0;
+}
+
+.post-image.thumbnail .caption p {
+  margin-bottom: 0;
+}

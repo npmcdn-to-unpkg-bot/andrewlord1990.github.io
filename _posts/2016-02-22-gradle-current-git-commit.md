@@ -2,8 +2,8 @@
 layout: inner
 title: 'Current Git Commit'
 date: 2016-02-22
-categories: blog development gradle android
-tags: dev code gradle android
+categories: dev android
+tags: blog dev code gradle android git
 lead_text: 'Get access to the current Git commit and branch in your Gradle projects, for example displaying it in an Android app.'
 ---
 
