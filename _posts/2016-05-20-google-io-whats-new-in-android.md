@@ -30,7 +30,16 @@ The layout designer will see a complete overhaul, with the added option to desig
 
 ### Multi-window
 
-Users have often requested the opportunity to use two apps next to each other, e.g. making notes whilst watching a video. The multi-window feature of Android N will allow this through split-screen activities, accessed through long-pressing on the recent apps button. This will allow two activities to be displayed side-by-side or top-to-bottom, depending on screen orientation. There is a bar drawn between the two windows, meaning you can make one window smaller than the other, if you wish. [TODO add image]
+Users have often requested the opportunity to use two apps next to each other, e.g. making notes whilst watching a video. The multi-window feature of Android N will allow this through split-screen activities, accessed through long-pressing on the recent apps button. This will allow two activities to be displayed side-by-side or top-to-bottom, depending on screen orientation. There is a bar drawn between the two windows, meaning you can make one window smaller than the other, if you wish.
+
+{% include post-image.html
+            id="whatsNewAndroidSplitScreenModal"
+            imgFull="https://developer.android.com/preview/images/mw-splitscreen_2x.png"
+            title="Split-screen activities"
+            caption="Two activities side-by-side on Android N" %}
+{% include modals/view-image.html
+            id="whatsNewAndroidSplitScreenModal"
+            imgFull="https://developer.android.com/preview/images/mw-splitscreen_2x.png" %}
 
 Once your app targets Android N, it will be opted into the multi-window mode by default. You will either need to update all the activities within your app to support it correctly, or you can disable it through the app manifest. There are some parameters available to tweak the split-screen behaviour, such as specifying a minimum width and height for your activity.
 
@@ -40,11 +49,16 @@ When you have two activities displayed in split-screen, you will be able to drag
 
 The main visible difference to notifications is a nice refresh to their design. The new template looks much cleaner, highlights the app that is showing it and allows the notification to be read much more easily. If an app shows many notifications, then these can be grouped together like a conversation. Much like you can on Android Wear, you will also be able to quick-reply to a notification, direct from the notification area - even on the lock-screen.
 
-[TODO add image]
-
 The quick settings area above the notifications has also been tidied up. Users will now be able to select their favourite quick settings tiles, reorder them and even add custom ones provided by apps on their device. To support this feature there is a new quick settings API for apps to interact with.
 
-[TODO add image]
+{% include post-image.html
+            id="whatsNewAndroidNotificationsModal"
+            imgFull="https://developer.android.com/preview/images/inline-reply_2x.png"
+            title="Notification re-design"
+            caption="New design for notifications and quick settings" %}
+{% include modals/view-image.html
+            id="whatsNewAndroidNotificationsModal"
+            imgFull="https://developer.android.com/preview/images/inline-reply_2x.png" %}
 
 ### Accessibility
 
@@ -54,13 +68,11 @@ Android N will support multiple user-specified languages. You will be able to se
 
 ### Power and Data Saving
 
-A feature called Doze [TODO add link] was added in Marshmallow, which helped save battery life whilst the device has its screen off and is stationary. Doze disables most background activity, allowing time windows in which it can occur. The concept is to limit battery consumption whilst you aren't using your device, likely whilst asleep. Android N will feature an additional light version of Doze that will run even if the device is moving. The idea here is to save battery life whilst the device is likely in your pocket. However, this version of Doze won't be as limiting to background activity, so that your device and apps work as you would expect.
+A feature called [Doze](https://developer.android.com/training/monitoring-device-state/doze-standby.html) was added in Marshmallow, which helped save battery life whilst the device has its screen off and is stationary. Doze disables most background activity, allowing time windows in which it can occur. The concept is to limit battery consumption whilst you aren't using your device, likely whilst asleep. Android N will feature an additional light version of Doze that will run even if the device is moving. The idea here is to save battery life whilst the device is likely in your pocket. However, this version of Doze won't be as limiting to background activity, so that your device and apps work as you would expect.
 
 A team at Google underwent Project Svelte, which had the goal of determining the causes for Android devices having suboptimal battery consumption. One outcome of this, which will feature in N, is that they have dropped some Intent actions, which were causing lots of apps to wake up at once. These revolve around when the network connection type changes and when you have taken a photo. The suggested way to respond to these events will now be to use the JobScheduler. This works in a more efficient manner, as it determines when to schedule each Job, rather than simply waking them all up. Incase you are interested, these actions are `CONNECTIVITY_ACTION`, `ACTION_NEW_PICTURE` and `ACTION_NEW_VIDEO`.
 
 Many users have to limit how much mobile data they use, due to the cost or how many MB they get in their contract. Android N will add a feature called Data Saver which will allow you to control how much data can be used overall and on an app-by-app basis. It will also let you find out exactly how much mobile data each app is using.
-
-[TODO add image]
 
 ### Direct Boot
 
