@@ -4,10 +4,10 @@ title: 'Robolectric Bulk Test Configuration'
 date: 2016-02-19
 categories: dev android
 tags: blog dev code android java testing robolectric
-lead_text: 'Many Android developers rely on Robolectric to unit test their Android apps and libraries. By running JUnit tests on your local machine''s JVM, it allows you to test-drive your Android development. Unfortunately you currently must provide a configuration annotation on each test class.'
+lead_text: 'I put forward my CustomRobolectricTestRunner, which allows you to configure your Robolectric test environment once and share it across all of your Android unit tests.'
 ---
 
-I put forward my `CustomRobolectricTestRunner`, which allows you to configure your Robolectric test environment once and share it across all of your Android unit tests.
+Many Android developers rely on Robolectric to unit test their Android apps and libraries. By running JUnit tests on your local machine's JVM, it allows you to test-drive your Android development. Unfortunately you currently must provide a configuration annotation on each test class.
 
 ### Custom Test Runner
 
