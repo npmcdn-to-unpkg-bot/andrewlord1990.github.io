@@ -4,14 +4,14 @@ title: 'Google IO: What''s New in Android'
 date: 2016-05-20
 categories: dev android google-io
 tags: blog dev google-io conference android
-lead_text: 'Some parts of the Android N release were quickly mentioned during the keynote speech. However, this talk dedicated to Android took a bit more time going over these new additions to the platform.'
+lead_text: 'Some parts of the Android N release were mentioned quickly during the keynote speech. However, this talk dedicated to Android took a bit more time going over these new additions to the platform.'
 ---
 
 {% include post-image.html
             id="whatsNewAndroidModal"
             img="posts/google-io-2016/whats-new-android-opening.jpg"
             title="What's New in Android"
-            caption="A great set of presenters to discuss the new Android features" %}
+            caption="A great set of presenters" %}
 {% include modals/view-image.html
             id="whatsNewAndroidModal"
             img="posts/google-io-2016/whats-new-android-opening.jpg" %}
@@ -41,7 +41,7 @@ Users have often requested the opportunity to use two apps next to each other, e
             id="whatsNewAndroidSplitScreenModal"
             img="posts/google-io-2016/whats-new-android-splitscreen.png" %}
 
-Once your app targets Android N, it will be opted into the multi-window mode by default. You will either need to update all the activities within your app to support it correctly, or you can disable it through the app manifest. There are some parameters available to tweak the split-screen behaviour, such as specifying a minimum width and height for your activity.
+Once your app targets Android N, it will be opted into the multi-window mode by default. You will either need to update all the activities within your app to support it correctly or you can disable it through the app manifest. There are some parameters available to tweak the split-screen behaviour, such as specifying a minimum width and height for your activity.
 
 When you have two activities displayed in split-screen, you will be able to drag and drop content from one to the other. This will make multi-window a very useful feature for many users.
 
@@ -70,15 +70,15 @@ Android N will support multiple user-specified languages. You will be able to se
 
 A feature called [Doze](https://developer.android.com/training/monitoring-device-state/doze-standby.html) was added in Marshmallow, which helped save battery life whilst the device has its screen off and is stationary. Doze disables most background activity, allowing time windows in which it can occur. The concept is to limit battery consumption whilst you aren't using your device, likely whilst asleep. Android N will feature an additional light version of Doze that will run even if the device is moving. The idea here is to save battery life whilst the device is likely in your pocket. However, this version of Doze won't be as limiting to background activity, so that your device and apps work as you would expect.
 
-A team at Google underwent Project Svelte, which had the goal of determining the causes for Android devices having suboptimal battery consumption. One outcome of this, which will feature in N, is that they have dropped some Intent actions, which were causing lots of apps to wake up at once. These revolve around when the network connection type changes and when you have taken a photo. The suggested way to respond to these events will now be to use the JobScheduler. This works in a more efficient manner, as it determines when to schedule each Job, rather than simply waking them all up. Incase you are interested, these actions are `CONNECTIVITY_ACTION`, `ACTION_NEW_PICTURE` and `ACTION_NEW_VIDEO`.
+A team at Google underwent Project Svelte, which had the goal of determining the causes for Android devices having suboptimal battery consumption. One outcome of this, which will feature in N, is that they have dropped some Intent actions which were causing lots of apps to wake up at once. The suggested way to respond to these events will now be to use the `JobScheduler`. This works in a more efficient manner as it determines when to schedule each Job rather than simply waking them all up. Incase you are interested, these actions are `CONNECTIVITY_ACTION`, `ACTION_NEW_PICTURE` and `ACTION_NEW_VIDEO`.
 
-Many users have to limit how much mobile data they use, due to the cost or how many MB they get in their contract. Android N will add a feature called Data Saver which will allow you to control how much data can be used overall and on an app-by-app basis. It will also let you find out exactly how much mobile data each app is using.
+Many users have to limit how much mobile data they use due to the cost or how many MB they get in their contract. Android N will add a feature called Data Saver which will allow you to control how much data can be used overall and on an app-by-app basis. It will also let you find out exactly how much mobile data each app is using.
 
 ### Direct Boot
 
-Currently in Android, if your device has to restart you will likely find your device stuck at the prompt to enter your password or PIN. After you have unlocked it you will need to wait for it to turn on fully before you can use it. Android N instead will boot up all the way to the lock-screen. It will show non-sensitive notifications and hide the content of sensitive ones until the device has been unlocked.
+Currently in Android, if your device has to restart you will likely find your device stuck at the password prompt. After you have unlocked it you will need to wait for it to turn on fully before you can use it. Android N instead will boot up all the way to the lock-screen. It will show non-sensitive notifications and hide the content of sensitive ones until the device has been unlocked.
 
-Coupled with Direct Boot, Android N will include seamless system updates. This means that the device will download the new update in the background and then simply switch over to it when the device comes on. Through this mechanism, you will always be using the latest software on your device - giving you access to the latest security updates and fixes.
+Coupled with Direct Boot, Android N will include seamless system updates. This means that the device will download new updates in the background and switch over to them when the device comes on. Through this mechanism, you will always be using the latest software on your device - giving you access to the latest security updates and fixes.
 
 ### Support Library
 
@@ -88,4 +88,4 @@ All Android developers should be familiar with the support libraries. Some chang
 
 Android N may not be a complete user interface refresh like Lollipop, but it does include some nice user-facing changes and a lot of background improvements. The [developer preview](https://developer.android.com/preview) is available now and a full consumer release should be available later this summer.
 
-You can check out the full "What's New in Android" talk on [YouTube](https://www.youtube.com/watch?v=B08iLAtS3AQ).
+You can check out the full "What's New in Android" talk on [YouTube](https://www.youtube.com/watch?v=B08iLAtS3AQ) if you are interested.
