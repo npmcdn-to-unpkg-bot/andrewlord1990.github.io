@@ -21,12 +21,12 @@ The layout designer will see a complete overhaul, with the added option to desig
 
 {% include post-image.html
             id="whatsNewAndroidConstraintLayoutModal"
-            imgFull="https://1.bp.blogspot.com/-bKfNq9rYxCI/Vz0so_YA4uI/AAAAAAAADEw/Ip9MPfepg4gHomW7qMy1u6AwVLFJJXn9gCLcB/s1600/studio_22_hero_image.png"
+            img="posts/google-io-2016/whats-new-android-constraint-layout.png"
             title="Android Layout Designer using constraints"
             caption="Design an Android layout using constraints" %}
 {% include modals/view-image.html
             id="whatsNewAndroidConstraintLayoutModal"
-            imgFull="https://1.bp.blogspot.com/-bKfNq9rYxCI/Vz0so_YA4uI/AAAAAAAADEw/Ip9MPfepg4gHomW7qMy1u6AwVLFJJXn9gCLcB/s1600/studio_22_hero_image.png" %}
+            img="posts/google-io-2016/whats-new-android-constraint-layout.png" %}
 
 ### Multi-window
 
@@ -34,12 +34,12 @@ Users have often requested the opportunity to use two apps next to each other, e
 
 {% include post-image.html
             id="whatsNewAndroidSplitScreenModal"
-            imgFull="https://developer.android.com/preview/images/mw-splitscreen_2x.png"
+            img="posts/google-io-2016/whats-new-android-splitscreen.png"
             title="Split-screen activities"
             caption="Two activities side-by-side on Android N" %}
 {% include modals/view-image.html
             id="whatsNewAndroidSplitScreenModal"
-            imgFull="https://developer.android.com/preview/images/mw-splitscreen_2x.png" %}
+            img="posts/google-io-2016/whats-new-android-splitscreen.png" %}
 
 Once your app targets Android N, it will be opted into the multi-window mode by default. You will either need to update all the activities within your app to support it correctly, or you can disable it through the app manifest. There are some parameters available to tweak the split-screen behaviour, such as specifying a minimum width and height for your activity.
 
@@ -53,12 +53,12 @@ The quick settings area above the notifications has also been tidied up. Users w
 
 {% include post-image.html
             id="whatsNewAndroidNotificationsModal"
-            imgFull="https://developer.android.com/preview/images/inline-reply_2x.png"
+            img="posts/google-io-2016/whats-new-android-notifications.png"
             title="Notification re-design"
             caption="New design for notifications and quick settings" %}
 {% include modals/view-image.html
             id="whatsNewAndroidNotificationsModal"
-            imgFull="https://developer.android.com/preview/images/inline-reply_2x.png" %}
+            img="posts/google-io-2016/whats-new-android-notifications.png" %}
 
 ### Accessibility
 
