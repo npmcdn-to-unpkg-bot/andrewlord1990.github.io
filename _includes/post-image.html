@@ -4,7 +4,12 @@
       {% if include.id %}
       <a href="#" data-toggle="modal" data-target="#{{ include.id }}">
       {% endif %}
+        {% if include.img %}
         <img src="{{ site.url }}/img/{{ include.img }}" alt="{{ include.title }}" class="img-responsive"/>
+        {% endif %}
+        {% if include.imgFull %}
+        <img src="{{ include.imgFull }}" alt="{{ include.title }}" class="img-responsive"/>
+        {% endif %}
       {% if include.id %}
       </a>
       {% endif %}

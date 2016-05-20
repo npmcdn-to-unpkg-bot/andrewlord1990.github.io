@@ -18,7 +18,15 @@ lead_text: 'Some parts of the Android N release were quickly mentioned during th
 
 The layout designer will see a complete overhaul, with the added option to design your layout using constraints. Rather than creating a view from nested layouts, you will connect elements of your UI together using constraints - all controlled through the graphical layout designer. One nice feature of this new type of layout is that you will be able to position elements based on them being a certain percentage of the way down or across the screen.
 
-[TODO add image]
+
+{% include post-image.html
+            id="whatsNewAndroidConstraintLayoutModal"
+            imgFull="https://1.bp.blogspot.com/-bKfNq9rYxCI/Vz0so_YA4uI/AAAAAAAADEw/Ip9MPfepg4gHomW7qMy1u6AwVLFJJXn9gCLcB/s1600/studio_22_hero_image.png"
+            title="Android Layout Designer using constraints"
+            caption="Design an Android layout using constraints" %}
+{% include modals/view-image.html
+            id="whatsNewAndroidConstraintLayoutModal"
+            imgFull="https://1.bp.blogspot.com/-bKfNq9rYxCI/Vz0so_YA4uI/AAAAAAAADEw/Ip9MPfepg4gHomW7qMy1u6AwVLFJJXn9gCLcB/s1600/studio_22_hero_image.png" %}
 
 ### Multi-window
 
@@ -67,3 +75,5 @@ All Android developers should be familiar with the support libraries. Some chang
 ### Wrap Up
 
 Android N may not be a complete user interface refresh like Lollipop, but it does include some nice user-facing changes and a lot of background improvements. The [developer preview](https://developer.android.com/preview) is available now and a full consumer release should be available later this summer.
+
+You can check out the full "What's New in Android" talk on [YouTube](https://www.youtube.com/watch?v=B08iLAtS3AQ).

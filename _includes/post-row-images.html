@@ -4,7 +4,12 @@
       {% if include.id0 %}
       <a href="#" data-toggle="modal" data-target="#{{ include.id0 }}">
       {% endif %}
+        {% if include.img0 %}
         <img src="{{ site.url }}/img/{{ include.img0 }}" alt="{{ include.title0 }}" class="img-responsive"/>
+        {% endif %}
+        {% if include.imgFull0 %}
+        <img src="{{ include.imgFull0 }}" alt="{{ include.title0 }}" class="img-responsive"/>
+        {% endif %}
       {% if include.id0 %}
       </a>
       {% endif %}
@@ -20,7 +25,12 @@
       {% if include.id1 %}
       <a href="#" data-toggle="modal" data-target="#{{ include.id1 }}">
       {% endif %}
+        {% if include.img1 %}
         <img src="{{ site.url }}/img/{{ include.img1 }}" alt="{{ include.title1 }}" class="img-responsive"/>
+        {% endif %}
+        {% if include.imgFull1 %}
+        <img src="{{ include.imgFull1 }}" alt="{{ include.title1 }}" class="img-responsive"/>
+        {% endif %}
       {% if include.id1 %}
       </a>
       {% endif %}

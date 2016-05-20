@@ -1,7 +1,12 @@
 <div class="modal fade" id="{{ include.id }}" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-dialog modal-lg">
         <div class="modal-content">
-                <img src="{{ site.url }}/img/{{ include.img }}" alt="{{ include.title }}" class="img-responsive"/>
+          {% if include.img %}
+          <img src="{{ site.url }}/img/{{ include.img }}" alt="{{ include.title }}" class="img-responsive"/>
+          {% endif %}
+          {% if include.imgFull %}
+          <img src="{{ include.imgFull }}" alt="{{ include.title }}" class="img-responsive"/>
+          {% endif %}
         </div>
     </div>
 </div>

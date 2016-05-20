@@ -207,3 +207,5 @@ To support this feature, some changes will need to be made to your app - making 
 ### Wrap Up
 
 The early release of the Android N developer preview meant there wasn't as many announcements about the new version of Android as usual. However, this year's keynote still contained many surprises and cool announcements.
+
+You can check out the full keynote speech on [YouTube](https://www.youtube.com/watch?v=862r3XS2YB0).
