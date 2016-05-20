@@ -15,6 +15,10 @@ a:active {
     color: #000;
 }
 
+button:focus {
+  outline:0;
+}
+
 ::selection {
     background: #086AFF;
     color: #fff;
@@ -698,7 +702,7 @@ h1.special span {
 
 .tile {
     position: relative;
-    box-shadow: 0 0.15em 0.35em 0 rgba(0, 0, 0, 0.135);
+    box-shadow: 0.05em 0.15em 0.35em 0.15em rgba(0, 0, 0, 0.135);
     margin-bottom: 125px;
 }
 
