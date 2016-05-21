@@ -1,7 +1,7 @@
 ---
 layout: inner
 title: 'Google IO: What''s New in Android'
-date: 2016-05-20
+date: 2016-05-19
 categories: dev android google-io
 tags: blog dev google-io conference android
 lead_text: 'Some parts of the Android N release were mentioned quickly during the keynote speech. However, this talk dedicated to Android took a bit more time going over these new additions to the platform.'
