@@ -14,7 +14,8 @@ lead_text: 'Some parts of the Android N release were mentioned quickly during th
             caption="A great set of presenters" %}
 {% include modals/view-image.html
             id="whatsNewAndroidModal"
-            img="posts/google-io-2016/whats-new-android-opening.jpg" %}
+            img="posts/google-io-2016/whats-new-android-opening.jpg"
+            title="What's New in Android" %}
 
 The layout designer will see a complete overhaul, with the added option to design your layout using constraints. Rather than creating a view from nested layouts, you will connect elements of your UI together using constraints - all controlled through the graphical layout designer. One nice feature of this new type of layout is that you will be able to position elements based on them being a certain percentage of the way down or across the screen.
 
@@ -26,7 +27,8 @@ The layout designer will see a complete overhaul, with the added option to desig
             caption="Design an Android layout using constraints" %}
 {% include modals/view-image.html
             id="whatsNewAndroidConstraintLayoutModal"
-            img="posts/google-io-2016/whats-new-android-constraint-layout.png" %}
+            img="posts/google-io-2016/whats-new-android-constraint-layout.png"
+            title="Android Layout Designer using constraints" %}
 
 ### Multi-window
 
@@ -39,7 +41,8 @@ Users have often requested the opportunity to use two apps next to each other, e
             caption="Two activities side-by-side on Android N" %}
 {% include modals/view-image.html
             id="whatsNewAndroidSplitScreenModal"
-            img="posts/google-io-2016/whats-new-android-splitscreen.png" %}
+            img="posts/google-io-2016/whats-new-android-splitscreen.png"
+            title="Split-screen activities" %}
 
 Once your app targets Android N, it will be opted into the multi-window mode by default. You will either need to update all the activities within your app to support it correctly or you can disable it through the app manifest. There are some parameters available to tweak the split-screen behaviour, such as specifying a minimum width and height for your activity.
 
@@ -58,7 +61,8 @@ The quick settings area above the notifications has also been tidied up. Users w
             caption="New design for notifications and quick settings" %}
 {% include modals/view-image.html
             id="whatsNewAndroidNotificationsModal"
-            img="posts/google-io-2016/whats-new-android-notifications.png" %}
+            img="posts/google-io-2016/whats-new-android-notifications.png"
+            title="Notification re-design" %}
 
 ### Accessibility
 

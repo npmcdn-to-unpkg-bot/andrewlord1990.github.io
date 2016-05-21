@@ -16,7 +16,8 @@ The problems with Android Wear were that information was harder to get to than i
             caption="Lots of interesting changes - wait, did that say standalone apps?" %}
 {% include modals/view-image.html
             id="wear2InfographicModal"
-            img="posts/google-io-2016/wear-2-infographic.jpg" %}
+            img="posts/google-io-2016/wear-2-infographic.jpg"
+            title="Wear 2 new features" %}
 
 ### New User interface
 

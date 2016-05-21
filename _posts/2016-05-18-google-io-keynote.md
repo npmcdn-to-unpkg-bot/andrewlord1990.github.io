@@ -23,10 +23,12 @@ The keynote speech began at 10a.m. PT (UTC-8), for which I was lucky enough to g
             caption1="A 3D IO logo can be painted by audience members flicking their phones" %}
 {% include modals/view-image.html
             id="keynotePlanesGameModal"
-            img="posts/google-io-2016/keynote-planes-game.jpg" %}
+            img="posts/google-io-2016/keynote-planes-game.jpg"
+            title="Interactive planes game" %}
 {% include modals/view-image.html
             id="keynotePaintGameModal"
-            img="posts/google-io-2016/keynote-paint-game.jpg" %}
+            img="posts/google-io-2016/keynote-paint-game.jpg"
+            title="Interactive paint game" %}
 
 ### Introduction
 
@@ -45,7 +47,8 @@ Google's focus is on improving how they can improve users' lives, make everyday 
             caption="Start of the keynote speech" %}
 {% include modals/view-image.html
             id="keynoteStageStartModal"
-            img="posts/google-io-2016/keynote-stage-start.jpg" %}
+            img="posts/google-io-2016/keynote-stage-start.jpg"
+            title="Start of keynote speech" %}
 
 ### Google Assistant
 
@@ -69,7 +72,8 @@ Alongside the assistant, [Google Home](https://home.google.com/) was announced. 
             caption="OK Google for your home" %}
 {% include modals/view-image.html
             id="keynoteHomeModal"
-            img="posts/google-io-2016/keynote-home.jpg" %}
+            img="posts/google-io-2016/keynote-home.jpg"
+            title="Google Home" %}
 
 - Play music on the built-in speaker, sourced from [Google Music](https://play.google.com/Music‎) and 3rd party services such as [Spotify](https://www.spotify.com/).
 - Cast [audio](https://www.google.com/chromecast/speakers/) or [video](https://www.google.com/chromecast) to connected devices.
@@ -91,7 +95,8 @@ The first surprising announcement was a new smart messaging app, called [Allo](h
             caption="Allo - chat augmented by the power of Google" %}
 {% include modals/view-image.html
             id="keynoteAllo"
-            img="posts/google-io-2016/keynote-allo.jpg" %}
+            img="posts/google-io-2016/keynote-allo.jpg"
+            title="Allo chat messaging app" %}
 
 Features mentioned:
 
@@ -122,7 +127,8 @@ Duo will be available this summer on both Android and iOS.
             caption="Allo and Duo - the new communication apps" %}
 {% include modals/view-image.html
             id="keynoteDuo"
-            img="posts/google-io-2016/keynote-allo-duo.jpg" %}
+            img="posts/google-io-2016/keynote-allo-duo.jpg"
+            title="Allo and Duo" %}
 
 ### Android
 
@@ -135,7 +141,8 @@ There weren't many surprises for Android N due to the fact the [developer previe
             caption="Android N - lots of new features coming" %}
 {% include modals/view-image.html
             id="keynoteAndroid"
-            img="posts/google-io-2016/keynote-android.jpg" %}
+            img="posts/google-io-2016/keynote-android.jpg"
+            title="Android N features" %}
 
 Many Android N features were mentioned:
 
@@ -159,7 +166,8 @@ Virtual Reality is coming to Android N in the form of the Daydream platform. Fir
             caption="The Daydream VR controller" %}
 {% include modals/view-image.html
             id="keynoteDaydream"
-            img="posts/google-io-2016/keynote-daydream.jpg" %}
+            img="posts/google-io-2016/keynote-daydream.jpg"
+            title="Daydream controller" %}
 
 The home of Daydream will be Google Play, users will be able to view, install and run apps all within VR. Many Google apps will support it, you will be able to watch videos in a virtual movie theatre, view StreetView in VR and watch YouTube in VR. YouTube has been redesigned to include voice search, spatial audio, VR-designed videos and a way of viewing all standard videos.
 
@@ -196,7 +204,8 @@ A major update has been made to the Firebase platform, with many existing Google
             caption="Firebase - new features" %}
 {% include modals/view-image.html
             id="keynoteFirebase"
-            img="posts/google-io-2016/keynote-firebase.jpg" %}
+            img="posts/google-io-2016/keynote-firebase.jpg"
+            title="Firebase features" %}
 
 ### Android Instant Apps
 

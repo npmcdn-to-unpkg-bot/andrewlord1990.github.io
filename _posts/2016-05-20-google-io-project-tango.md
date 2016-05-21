@@ -28,10 +28,12 @@ The first app I tried out is called [Measure It](https://play.google.com/store/a
             caption1="Measure it - measure between multiple points" %}
 {% include modals/view-image.html
             id="tangoMeasureItModal"
-            img="posts/google-io-2016/tango-measure-it.png" %}
+            img="posts/google-io-2016/tango-measure-it.png"
+            title="Tango Measure It two points" %}
 {% include modals/view-image.html
             id="tangoMeasureItMultiPointModal"
-            img="posts/google-io-2016/tango-measure-it-multi-point.png" %}
+            img="posts/google-io-2016/tango-measure-it-multi-point.png"
+            title="Tango Measure It multiple points" %}
 
 Next, I tried out an app called [Constructor](https://play.google.com/store/apps/details?id=com.projecttango.constructor), which allows you to build a 3D mesh of your surroundings. By moving the device around, the 3D space around you is captured by the camera, including colour and depth. The app uses this information to build a 3D mesh in real-time. If you scan the scene carefully enough it can build a very accurate mesh, with a very small number of gaps within it.
 
@@ -42,7 +44,8 @@ Next, I tried out an app called [Constructor](https://play.google.com/store/apps
             caption="Scan your surroundings to build a 3D mesh" %}
 {% include modals/view-image.html
             id="tangoConstructorModal"
-            img="posts/google-io-2016/tango-constructor.png" %}
+            img="posts/google-io-2016/tango-constructor.png"
+            title="Tango Constructor" %}
 
 You want to buy a new dish washer or cabinet, but you aren't sure if it will fit in the available space or if it will look good in your kitchen. US retailer [Wayfair](https://www.wayfair.com) has an application that will allow you to see a virtual overlay of the product as if it is actually there in the room. You can move around and view it from different angles, whilst also being able to see if it fits in the available space.
 
