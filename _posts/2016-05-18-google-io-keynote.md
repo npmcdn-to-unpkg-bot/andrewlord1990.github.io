@@ -63,7 +63,7 @@ Now, they have announced the Google Assistant, which will group all of these ide
 
 ### Google Home
 
-Alongside the assistant, [Google Home](https://home.google.com/) was announced. This is Google's equivalent of [Amazon Echo and Alexa](https://www.amazon.com/echo‎). It is a sleek device for your home, which will give you the power of the Google assistant in your home, through two-way dialog.
+Alongside the assistant, [Google Home](https://home.google.com/) was announced. This is Google's equivalent of [Amazon Echo and Alexa](https://www.amazon.com/echo/‎). It is a sleek device for your home, which will give you the power of the Google assistant in your home, through two-way dialog.
 
 {% include post-image.html
             id="keynoteHomeModal"
@@ -75,8 +75,8 @@ Alongside the assistant, [Google Home](https://home.google.com/) was announced. 
             img="posts/google-io-2016/keynote-home.jpg"
             title="Google Home" %}
 
-- Play music on the built-in speaker, sourced from [Google Music](https://play.google.com/Music‎) and 3rd party services such as [Spotify](https://www.spotify.com/).
-- Cast [audio](https://www.google.com/chromecast/speakers/) or [video](https://www.google.com/chromecast) to connected devices.
+- Play music on the built-in speaker, sourced from [Google Music](https://play.google.com/music/listen‎) and 3rd party services such as [Spotify](https://www.spotify.com/).
+- Cast [audio](https://www.google.com/chromecast/speakers/) or [video](https://www.google.com/chromecast/) to connected devices.
 - Tell it which room to play the content in.
 - Manage everyday tasks, such as Todo lists, alarms and timers.
 - Connect to smart home features such as lights and thermostats.
