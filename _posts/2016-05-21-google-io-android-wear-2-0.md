@@ -23,9 +23,29 @@ There were some things about the original Android Wear that made it less than pe
 
 Selecting different watch faces is as simple as swiping left and right between your favourites and adding new faces to the list by selecting the option on the right-hand end. Watch faces will now be able to be customised with various settings and have complications added to them. Complications are the extra bits of information on a watch face, in this instance things such as heart rate, event reminders and steps taken today. A new API has been developed for apps to act as data providers giving access to this data and watch faces can show this data. The watch face will have control over how it is displayed, so that it fits in with the rest of the watch face. However, the data provider can specify the type of data it contains, such as short text, icon, value within a range - to give some control over how it will be displayed.
 
+{% include post-image.html
+            id="wear2WatchFaceModal"
+            img="posts/google-io-2016/wear-2-watch-face.png"
+            title="Wear 2 watch face"
+            caption="Watch face with complications" %}
+{% include modals/view-image.html
+            id="wear2WatchFaceModal"
+            img="posts/google-io-2016/wear-2-watch-face.png"
+            title="Wear 2 watch face" %}
+
 Swiping down from the top will give you access to quick settings, such as WiFi, flight mode, brightness and alarms. This area will be familiar to users of Android on phones and tablets. As before, swiping downwards will take you through your various notifications.
 
 Android Wear 2.0 watches feature a physical button on the side which acts as a back key. Upon pressing it you will be taken back one step, the same as the back key on Android phones and tablets. When looking at your watch face, pressing back will slide out the app launcher. This is presented to you as a vertically scrolling list, with your most used apps repeated at the top.
+
+{% include post-image.html
+            id="wear2AppLauncherModal"
+            img="posts/google-io-2016/wear-2-app-launcher.jpg"
+            title="Wear 2 app launcher"
+            caption="The new watch app launcher" %}
+{% include modals/view-image.html
+            id="wear2AppLauncherModal"
+            img="posts/google-io-2016/wear-2-app-launcher.jpg"
+            title="Wear 2 app launcher" %}
 
 ### Design and navigation
 
@@ -38,6 +58,16 @@ When designing your Wear 2.0 app it is suggested that you use a dark theme. User
 ### Messaging
 
 When you receive a message, such as an email, SMS or chat, a notification is displayed in the notifications area. Instead of having to swipe to the side to reply, an action will be shown inline at the bottom of the notification. Once you select to reply, you will be given the option of doing this through voice, on-screen keyboard, handwriting and smart-reply. The smart-reply option uses machine learning to predict how you would want to reply to the message. Unlike before the messages won't be taken away until the user chooses to dismiss them. This allows you to follow the whole conversation on your watch and view past messages.
+
+{% include post-image.html
+            id="wear2InputTypesModal"
+            img="posts/google-io-2016/wear-2-input-types.jpg"
+            title="Wear 2 input types"
+            caption="Many ways to perform input" %}
+{% include modals/view-image.html
+            id="wear2InputTypesModal"
+            img="posts/google-io-2016/wear-2-input-types.jpg"
+            title="Wear 2 input types" %}
 
 ### Standalone Apps
 
