@@ -33,7 +33,7 @@ If touchable areas are too small, users who have a tremor will struggle to selec
 
 Proper contrast allows for visually distinguished elements, making them easier to see for everyone and in particular those with a form of visual impairment. Consider using a contrast ratio of 4.5:1 from foreground to background. To make this easier there are online tools available to measure the contrast ratio between two colour values [TODO add link]. When you have text content that is large (18sp or greater), then you should aim for a ratio of 3:1, or 4.5:1 with smaller text.
 
-When creating your view layouts, there are attributes you can add to make sure it makes sense to a screen reader. Firstly, not all views are clickable by default (such as `ImageView`), so make you label the clickable views. Secondly, the `focusable` attribute is used to denote an element that should group content. For example, if you have a row of data with a label and a value, by making the parent layout focusable will mean the screen reader can read it out together. This should make the view more understandable and ensure everything is read out in the correct order.
+When creating your view layouts, there are attributes you can add to make sure it makes sense to a screen reader. Firstly, make sure you label the clickable views to ensure they appear as actions. Secondly, the `focusable` attribute is used to denote an element that should group content. For example, if you have a row of data with a label and a value, by making the parent layout focusable will mean the screen reader can read it out together. This should make the view more understandable and ensure everything is read out in the correct order.
 
 ### Testing
 
