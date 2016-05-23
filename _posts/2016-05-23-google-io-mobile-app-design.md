@@ -11,11 +11,11 @@ lead_text: 'Put forward are a set of best practices when designing a mobile app,
 
 Many apps offer location-based features such as 'find hotels near me'. A common mistake is to forget that they may wish to use another location beyond their current one. It should be easy for them to manually change it - such as allowing them to search near an address as well as searching near their current location. The Google Places API [TODO add link] helps with location-based information such as this.
 
-Whenever possible you should avoid redirecting to the website and should try to keep the user within the app. If it is required then you should ensure the transition is a frictionless experience. Instead of taking them to the web browser, considering using Chrome Custom Tabs to show the content within the app. Chrome Custom Tabs are much more performant than using an embedded `WebView` and they also share cookies and cached data with the Chrome web browser. With Custom Tabs you are also able to change the toolbar colour and control enter and exit transitions. [TODO add link]
+Whenever possible you should avoid redirecting to the website and should try to keep the user within the app. If it is required then you should ensure the transition is a frictionless experience. Instead of taking them to the web browser, considering using [Chrome Custom Tabs](https://developer.chrome.com/multidevice/android/customtabs) to show the content within the app. Chrome Custom Tabs are much more performant than using an embedded `WebView` and they also share cookies and cached data with the Chrome web browser. With Custom Tabs you are also able to change the toolbar colour and control enter and exit transitions.
 
 ### Search and Commerce
 
-Search should be featured prominently, following the Material Design guidelines for search [TODO add link]. Hiding the option away in an overflow menu or only offering it in specific parts of the app will make it much harder for users to find the content they are interested in. If search is the main feature of your app, consider using a persistent search field instead of a standard action bar.
+Search should be featured prominently, following the [Material Design guidelines for search](https://www.google.com/design/spec/patterns/search.html). Hiding the option away in an overflow menu or only offering it in specific parts of the app will make it much harder for users to find the content they are interested in. If search is the main feature of your app, consider using a persistent search field instead of a standard action bar.
 
 [TODO add image of search on material design]
 
@@ -29,7 +29,7 @@ There is nothing worse than a customer downloading your app, adding items to the
 
 There examples of apps which refer to login and register as 'sign in' and 'sign up', leaving customers confused. It is important you clearly differentiate between these options, so that the customer knows what to press. Users find login and registration difficult, many will just give up and not continue with your app. Passwords are hard to remember, people forget which email they used, users will forget if they actually had an account and if multiple login types are offered they will forget which one they used. You can help by making the login and registration forms quick and easy to fill in - ensuring the fields are easy to navigate and enter into. The Google Identity framework can help, allowing users to login using their Google account - or you could allow them to use their fingerprint.
 
-The framework also includes a feature called Smart Lock [TODO add link]. This provides users with an assisted sign in process, possibly even skipping the whole process entirely. It works by allowing the login credential to be stored within Google, so that if you have logged in before the app can just sign you in automatically. This feature is available on both clients and websites. You can store the password or an account login such as Facebook or Google, then just request this from Smart Lock instead of asking the user for it.
+The framework also includes a feature called [Smart Lock](https://developers.google.com/identity/smartlock-passwords/android/). This provides users with an assisted sign in process, possibly even skipping the whole process entirely. It works by allowing the login credential to be stored within Google, so that if you have logged in before the app can just sign you in automatically. This feature is available on both clients and websites. You can store the password or an account login such as Facebook or Google, then just request this from Smart Lock instead of asking the user for it.
 
 You should aim to build user-friendly forms, not requiring the user to manually press many small input fields. You could even consider scrolling the page down as the fields are filled in. Simple aids can also be made by matching the keyboard offered with the input type of the field they are entering into.
 
@@ -41,4 +41,4 @@ Android 6 added runtime permissions, meaning if a feature requires a dangerous p
 
 ### Wrap Up
 
-There are many more principles, for mobile apps, retail apps and mobile websites - available at [thinkwithgoogle.com](http://thinkwithgoogle.com). You can also check out the full talk on YouTube [TODO add link] if you are interested.
+There are many more principles, for mobile apps, retail apps and mobile websites - available at [thinkwithgoogle.com](https://www.thinkwithgoogle.com/). You can also check out the full talk on [YouTube](https://www.youtube.com/watch?v=u7iUoxqKaKU) if you are interested.
