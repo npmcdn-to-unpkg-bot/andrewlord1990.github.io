@@ -81,6 +81,9 @@ Google Fit will allow the watch to perform real-time activity recognition and tr
 
 Android Wear 2.0 makes owning an Android smart watch an even more exciting prospect than the already great 1st version. From apps not requiring the phone, to many more reply options and a much clearer navigation flow. The [developer preview](https://developer.android.com/wear/preview/index.html) is available now and hopefully the consumer release will be rolled out later this year.
 
-Check out the full talk on YouTube [TODO add link] if you are interested.
+You can check out the full Android Wear talk on YouTube if you are interested.
+
+{% include youtube-embed.html
+            video_id="[TODO add video ID]" %}
 
 [TODO add image of walk wall]

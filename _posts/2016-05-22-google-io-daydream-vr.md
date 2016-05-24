@@ -47,4 +47,7 @@ When creating your app there are two different routes you can go down. A self-co
 
 It is important to consider that different people look for different things in the apps they use. An obvious application for VR is a rollercoaster simulator, however, as in real life not everyone is a fan of roller coasters. Therefore, both thrilling and relaxing experiences will do well on Daydream. You can categorise virtual reality apps into levels of motion intensity: no motion, moderate motion and intense motion. No motion is when the user only moves around when they choose to, for example sitting in a virtual movie theatre. Moderate motion consists of motion within 2 degrees of freedom, for example walking or driving. Finally, intense motion involves motion within 3 to 6 degrees of freedom - such as flying a spaceship or riding a rollercoaster. There is room for apps to be created in each of these different areas, where each can produce a truly immersive experience for the user.
 
-Check out the full talk on [YouTube](https://www.youtube.com/watch?v=LutcJT1t9t0) if you are interested.
+You can check out the full Daydream VR talk on YouTube if you are interested.
+
+{% include youtube-embed.html
+            video_id="LutcJT1t9t0" %}

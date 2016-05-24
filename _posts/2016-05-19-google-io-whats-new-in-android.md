@@ -92,4 +92,7 @@ All Android developers should be familiar with the support libraries. Some chang
 
 Android N may not be a complete user interface refresh like Lollipop, but it does include some nice user-facing changes and a lot of background improvements. The [developer preview](https://developer.android.com/preview) is available now and a full consumer release should be available later this summer.
 
-You can check out the full "What's New in Android" talk on [YouTube](https://www.youtube.com/watch?v=B08iLAtS3AQ) if you are interested.
+You can check out the full "What's New in Android" talk on YouTube if you are interested.
+
+{% include youtube-embed.html
+            video_id="B08iLAtS3AQ" %}

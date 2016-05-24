@@ -43,4 +43,7 @@ The best way to ensure the app is fully accessible is through manual testing wit
 
 In short, to ensure your app gives the best possible experience to all users, first get familiar with the accessibility services like TalkBack. Second, follow the accessibility best practices. Third, develop and test the app with accessibility in mind.
 
-You can check out the full talk on YouTube [TODO add link] if you are interested.
+You can check out the full talk on YouTube if you are interested.
+
+{% include youtube-embed.html
+            video_id="[TODO add video id]" %}

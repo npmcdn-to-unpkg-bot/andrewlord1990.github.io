@@ -35,4 +35,7 @@ You have finished your app and are ready to release it, making it available is a
 
 I hadn't actually tried out an Android TV before and didn't realise quite how good it would be. I am now eager to get my hands on one and then to start developing apps for it!
 
-You can check out the full talk on YouTube [TODO add link] if you are interested.
+You can check out the full talk on YouTube if you are interested.
+
+{% include youtube-embed.html
+            video_id="[TODO add video id]" %}

@@ -41,4 +41,7 @@ Android 6 added runtime permissions, meaning if a feature requires a dangerous p
 
 ### Wrap Up
 
-There are many more principles, for mobile apps, retail apps and mobile websites - available at [thinkwithgoogle.com](https://www.thinkwithgoogle.com/). You can also check out the full talk on [YouTube](https://www.youtube.com/watch?v=u7iUoxqKaKU) if you are interested.
+There are many more principles, for mobile apps, retail apps and mobile websites - available at [thinkwithgoogle.com](https://www.thinkwithgoogle.com/). You can check out the full talk on YouTube if you are interested.
+
+{% include youtube-embed.html
+            video_id="u7iUoxqKaKU" %}
