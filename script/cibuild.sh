@@ -9,6 +9,7 @@ INGORE_HREFS=$(ruby -e 'puts %w{
   www.amazon.com/echo/
   play.google.com/music/
   uk.linkedin.com/in/andrewlord1990
+	www.wayfair.com/
   #
 }.map{|h| "/#{h}/"}.join(",")')
 
