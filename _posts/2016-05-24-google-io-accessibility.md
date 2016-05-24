@@ -11,7 +11,7 @@ Accessibility affects more than just those with disabilities, such as blindness 
 
 ### APPlicable
 
-There is a program called APPlicable [TODO add link] which is a Google Tel Aviv program. It helps startups make their apps more accessible by inviting developers to see how blind users interact with their app. Many are surprised to find it can be a horrible experience with parts of the app impossible to use. Some developers who were part of this program suggested simplifying the navigation into shorter lists and to ensure all UI elements are properly labelled.
+There is a program called APPlicable which is a Google Tel Aviv program. It helps startups make their apps more accessible by inviting developers to see how blind users interact with their app. Many are surprised to find it can be a horrible experience with parts of the app impossible to use. Some developers who were part of this program suggested simplifying the navigation into shorter lists and to ensure all UI elements are properly labelled.
 
 ### Accessibility Services
 
@@ -31,13 +31,13 @@ Text labels allow visual elements to be described by TalkBack, which is an attri
 
 If touchable areas are too small, users who have a tremor will struggle to select them. You should aim for making these targets a minimum of 48dp x 48dp. The visual area doesn't need to be this size, you could make the touchable area larger than what is seen - possibly using a `TouchDelegate`.
 
-Proper contrast allows for visually distinguished elements, making them easier to see for everyone and in particular those with a form of visual impairment. Consider using a contrast ratio of 4.5:1 from foreground to background. To make this easier there are online tools available to measure the contrast ratio between two colour values [TODO add link]. When you have text content that is large (18sp or greater), then you should aim for a ratio of 3:1, or 4.5:1 with smaller text.
+Proper contrast allows for visually distinguished elements, making them easier to see for everyone and in particular those with a form of visual impairment. Consider using a contrast ratio of 4.5:1 from foreground to background. To make this easier there are online tools available to measure the contrast ratio between two colour values, such as [this one](http://leaverou.github.io/contrast-ratio/). When you have text content that is large (18sp or greater), then you should aim for a ratio of 3:1, or 4.5:1 with smaller text.
 
 When creating your view layouts, there are attributes you can add to make sure it makes sense to a screen reader. Firstly, make sure you label the clickable views to ensure they appear as actions. Secondly, the `focusable` attribute is used to denote an element that should group content. For example, if you have a row of data with a label and a value, by making the parent layout focusable will mean the screen reader can read it out together. This should make the view more understandable and ensure everything is read out in the correct order.
 
 ### Testing
 
-The best way to ensure the app is fully accessible is through manual testing with features like TalkBack enabled. However, there are some automated methods you can use as a first pass through the application. The Accessibility Testing Framework [TODO add link] is integrated with Espresso (`AccessibilityChecks.enable`) and Robolectric (`@AccessibilityChecks`). This will test the view currently being tested for common accessibility issues. There is also Accessibility scanner [TODO add link] that runs on the device for real time evaluations, which can be used by non-technical users. By scanning the screen it can show you a screenshot with suggested fixes highlighted. This can then be easily shared with your developers if you aren't the person working on the fixes. These tools are very good as a first pass, however, they won't catch everything and will likely report false positives. Ensure you test the app manually as well to see for yourself what it is like.
+The best way to ensure the app is fully accessible is through manual testing with features like TalkBack enabled. However, there are some automated methods you can use as a first pass through the application. The [Accessibility Testing Framework](https://github.com/google/Accessibility-Test-Framework-for-Android) is integrated with Espresso (`AccessibilityChecks.enable`) and Robolectric (`@AccessibilityChecks`). This will test the view currently being tested for common accessibility issues. There is also [Accessibility Scanner](https://play.google.com/store/apps/details?id=com.google.android.apps.accessibility.auditor) that runs on the device for real time evaluations, which can be used by non-technical users. By scanning the screen it can show you a screenshot with suggested fixes highlighted. This can then be easily shared with your developers if you aren't the person working on the fixes. These tools are very good as a first pass, however, they won't catch everything and will likely report false positives. Ensure you test the app manually as well to see for yourself what it is like.
 
 ### Wrap Up
 
@@ -46,4 +46,4 @@ In short, to ensure your app gives the best possible experience to all users, fi
 You can check out the full talk on YouTube if you are interested.
 
 {% include youtube-embed.html
-            video_id="[TODO add video id]" %}
+            video_id="SOZwfQO4rVM" %}

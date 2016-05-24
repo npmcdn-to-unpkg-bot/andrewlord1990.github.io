@@ -84,6 +84,4 @@ Android Wear 2.0 makes owning an Android smart watch an even more exciting prosp
 You can check out the full Android Wear talk on YouTube if you are interested.
 
 {% include youtube-embed.html
-            video_id="[TODO add video ID]" %}
-
-[TODO add image of walk wall]
+            video_id="L_Z3gSXGsyI" %}

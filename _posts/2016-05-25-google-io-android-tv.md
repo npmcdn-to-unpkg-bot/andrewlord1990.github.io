@@ -23,7 +23,7 @@ It uses the same Android SDK as other devices, so no changes are required here. 
 
 In order to design your TV app user interface the Leanback support library is available. This provides UI components with the TV best practices built-in. The `BrowseFragment` helps you create a well-designed home page, containing a grid of content, sidebar and search option. Selecting one of the items of content can take you to a `DetailsFragment`, which you can customise to show your detail page such as product information. There is a `PlaybackOverlayFragment` for showing playback controls and a `SearchFragment` to give you access to voice search, a text search field and search results.
 
-Users can perform a global search on Android TV, which gives them access to Google search results. By using a feature called Universal Search [TODO add link] you can also get your app content included in these global search results. It works by you providing a content provider to search your data and specifying `includeInGlobalSearch` in your searchable configuration file. Doing this will really help users discover the content your app has to offer.
+Users can perform a global search on Android TV, which gives them access to Google search results. By using a feature called Universal Search you can also get your app content included in these global search results. It works by you providing a content provider to search your data and specifying `includeInGlobalSearch` in your searchable configuration file. Doing this will really help users discover the content your app has to offer.
 
 ### Test and Release
 
@@ -38,4 +38,4 @@ I hadn't actually tried out an Android TV before and didn't realise quite how go
 You can check out the full talk on YouTube if you are interested.
 
 {% include youtube-embed.html
-            video_id="[TODO add video id]" %}
+            video_id="qv-e1sV3gos" %}

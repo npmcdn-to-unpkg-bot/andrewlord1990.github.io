@@ -920,3 +920,8 @@ p.author {
 .post-image.thumbnail .caption p {
   margin-bottom: 0;
 }
+
+.embed-responsive {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}

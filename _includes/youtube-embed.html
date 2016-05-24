@@ -1,5 +1,8 @@
 {% if include.video_id %}
-<div class="post-video">
-  <iframe src="https://www.youtube.com/embed/{{ include.video_id }}" frameborder="0" allowfullscreen></iframe>
+<div class="embed-responsive embed-responsive-16by9">
+  <iframe class="embed-responsive-item"
+          src="https://www.youtube.com/embed/{{ include.video_id }}"
+          allowfullscreen>
+  </iframe>
 </div>
 {% endif %}

@@ -9,15 +9,13 @@ lead_text: 'Put forward are a set of best practices when designing a mobile app,
 
 ### Navigation and Exploration
 
-Many apps offer location-based features such as 'find hotels near me'. A common mistake is to forget that they may wish to use another location beyond their current one. It should be easy for them to manually change it - such as allowing them to search near an address as well as searching near their current location. The Google Places API [TODO add link] helps with location-based information such as this.
+Many apps offer location-based features such as 'find hotels near me'. A common mistake is to forget that they may wish to use another location beyond their current one. It should be easy for them to manually change it - such as allowing them to search near an address as well as searching near their current location. The [Google Places API](https://developers.google.com/places/) helps with location-based information such as this.
 
 Whenever possible you should avoid redirecting to the website and should try to keep the user within the app. If it is required then you should ensure the transition is a frictionless experience. Instead of taking them to the web browser, considering using [Chrome Custom Tabs](https://developer.chrome.com/multidevice/android/customtabs) to show the content within the app. Chrome Custom Tabs are much more performant than using an embedded `WebView` and they also share cookies and cached data with the Chrome web browser. With Custom Tabs you are also able to change the toolbar colour and control enter and exit transitions.
 
 ### Search and Commerce
 
 Search should be featured prominently, following the [Material Design guidelines for search](https://www.google.com/design/spec/patterns/search.html). Hiding the option away in an overflow menu or only offering it in specific parts of the app will make it much harder for users to find the content they are interested in. If search is the main feature of your app, consider using a persistent search field instead of a standard action bar.
-
-[TODO add image of search on material design]
 
 When providing searchable data, such as products, you should have obvious filtering and sorting options. Many apps use an icon for these, however, many users may not know what they mean. One option would be to offer clear filter and sort text buttons at the top of the page.
 
