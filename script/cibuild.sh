@@ -5,11 +5,11 @@ function msg {
 	printf "\e[0;37m==> $1\e[0m\n"
 }
 
-INGORE_HREFS=$(ruby -e 'puts %w{
-	www.wayfair.com/
-	www.amazon.com/echo/
-	play.google.com/music/
-	uk.linkedin.com/in/andrewlord1990
+IGNORE_HREFS=$(ruby -e 'puts %w{
+	www.wayfair.com/,
+	www.amazon.com/echo/,
+	play.google.com/music/,
+	uk.linkedin.com/in/andrewlord1990,
 	#
 }.map{|h| "/#{h}/"}.join(",")')
 
@@ -20,6 +20,6 @@ msg "Building..."
 bundle exec jekyll build --trace
 
 msg "Proofing..."
-bundle exec htmlproofer ./_site --url-ignore $INGORE_HREFS  --check-html
+bundle exec htmlproofer ./_site --url-ignore $IGNORE_HREFS  --check-html
 
 bootlint ./_site/*.html
