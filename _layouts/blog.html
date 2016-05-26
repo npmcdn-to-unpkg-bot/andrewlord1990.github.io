@@ -32,6 +32,17 @@
                     {% include pagination.html %}
                 </div>
             </div>
+            {% if site.categories != empty %}
+                <div class="text-center blog-categories">
+                  <aside>
+                    &middot;
+                    {% for category in site.categories %}
+                      <span><a href="{{ site.url }}/{{ category[0] }}">{{ category[0] }} <{{ category[1].size }}></a></span>
+                    {% endfor %}
+                    &middot;
+                  </aside>
+                </div>
+            {% endif %}
         </div>
     </main>
 

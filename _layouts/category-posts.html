@@ -1,0 +1,26 @@
+{% include header.html %}
+
+<div class="title-group">
+    <h1 class="special">
+        <span>{{ page.title }}</span>
+    </h1>
+    <p class="lead">
+        {{ page.description }}
+    </p>
+</div>
+
+<div class="container">
+  <div class="row">
+      <div class="col-md-12">
+          {% if site.categories[page.category] %}
+              {% for post in site.categories[page.category] %}
+                  {% include tile.html %}
+              {% endfor %}
+          {% else %}
+            <p>There are no posts in this category.</p>
+          {% endif %}
+        </div>
+    </div>
+</div>
+
+{% include footer.html %}

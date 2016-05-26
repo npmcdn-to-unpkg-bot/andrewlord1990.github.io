@@ -703,7 +703,7 @@ h1.special span {
 .tile {
     position: relative;
     box-shadow: 0.05em 0.15em 0.35em 0.15em rgba(0, 0, 0, 0.135);
-    margin-bottom: 125px;
+    margin-bottom: 100px;
 }
 
 .tile .inner-guts {
@@ -924,4 +924,8 @@ p.author {
 .embed-responsive {
   margin-top: 30px;
   margin-bottom: 30px;
+}
+
+.blog-categories {
+  margin-bottom: 40px;
 }
